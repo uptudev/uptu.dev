@@ -4,12 +4,16 @@
 
 <template>
   <header>
+    <h1 class="title">UPTU'S TUTORIAL SITE</h1>
     <div class="wrapper">
+      <hr />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+      <hr />
     </div>
+    <br>
   </header>
 
   <RouterView />
@@ -21,6 +25,14 @@
     max-height: 100vh;
   }
 
+  .title {
+    text-align: center;
+    font-size:36px;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
   .logo {
     display: block;
     margin: 0 auto 2rem;
@@ -30,7 +42,8 @@
     width: 100%;
     font-size: 12px;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   nav a.router-link-exact-active {
