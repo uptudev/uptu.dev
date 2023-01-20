@@ -121,7 +121,7 @@
 
 <template>
   <div class="main">
-    <h1 class="h1">Text Modification</h1>
+    <h1 class="h1 green">Text Modification</h1>
     <input class="input" v-model="textf">
     <br>
     <button class="button" @click="rev()">Reverse</button>
@@ -138,12 +138,6 @@
 </template> 
 
 <style>
-  .h1 {
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size:35px;
-  }
-
   .button {
     background-color: var(--color-border);
     transition: 100ms;

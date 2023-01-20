@@ -21,6 +21,7 @@
 
 <style scoped>
   header {
+    color: rgb(0, 161, 189);
     line-height: 1.5;
     max-height: 100vh;
   }
@@ -50,7 +51,7 @@
   }
 
   nav a.router-link-exact-active {
-    color: var(--color-text);
+    color: rgb(0, 161, 189);
   }
 
   nav a.router-link-exact-active:hover {
@@ -58,9 +59,14 @@
   } 
 
   nav a {
+    color: var(--color-text);
     display: inline-block;
     padding: 0 1rem;
     border-left: 1px solid var(--color-border);
+  }
+
+  nav a:hover {
+    color: rgb(0, 161, 189);
   }
 
   nav a:first-of-type {
