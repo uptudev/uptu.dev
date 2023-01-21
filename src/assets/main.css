@@ -39,6 +39,7 @@
 .h1 {
   font-weight: bold;
   font-variant: small-caps;
+  place-items: center;
 }
 
 a,

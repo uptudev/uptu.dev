@@ -14,8 +14,6 @@
       </li>
       <li><p><strong>/src/router/</strong> - Contains router config.</p>
       </li>
-      <li><p><strong>/src/stores/</strong> - Don't know what this does yet but it has a counter class in it for some reason.</p>
-      </li>
       <li><p><strong>/src/views/</strong> - Contains the about and home pages.</p>
       </li>
     </ul>
@@ -23,6 +21,8 @@
     <li><p><strong>/.vscode/</strong> - Contains VS Code extension JSON.</p>
     </li>
     <li><p><strong>/public/</strong> - Contains favicon and other public assets.</p>
+    </li>
+    <li><p><strong>/dist/</strong> - Contains the built & compiled production assets for this website to be deployed to a webserver.</p>
     </li>
     </ul>
     <br><hr><br>

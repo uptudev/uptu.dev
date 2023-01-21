@@ -149,8 +149,8 @@
     display: inline-block;
     font-size: 16px;
     font-weight: normal;
-    width: 10%;
-    height: 50px;
+    width: 98px;
+    height: 40px;
     border-radius: 8px;
     margin-right: 0.5%;
     margin-bottom: 0.5%;
@@ -174,8 +174,8 @@
     display: inline-block;
     font-size: 16px;
     font-weight: normal;
-    width: 15.2%;
-    height: 50px;
+    width: 149.5px;
+    height: 40px;
     border-radius: 8px;
     margin-right: 0.5%;
     margin-bottom: 0.5%;
@@ -189,7 +189,7 @@
   }
 
   .input {
-    width: 31%;
+    width: 303px;
     font-size: 16px;
     padding: 12px 20px;
     margin: 8px 0;
