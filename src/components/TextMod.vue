@@ -161,6 +161,9 @@
     font-weight: bold;
     transition: 300ms;
     border-radius: 4px;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
   }
 
   .buttonlong {

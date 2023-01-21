@@ -45,6 +45,7 @@
 a,
 .green {
   text-decoration: none;
+  font-weight: lighter;
   color: rgb(0, 161, 189);
   transition: 0.4s;
 }
