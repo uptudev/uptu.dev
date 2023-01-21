@@ -1,7 +1,7 @@
 <template>
   <div class="main">
-    <h1 id="vuetut" class="green h1">vueTut</h1>
-    <p>This is my JavaScript playground, mostly for experimenting with web development and JS frameworks.</p>
+    <h1 id="vuetut" class="green h1">uptu.dev</h1>
+    <p>This is my portfolio website/JavaScript playground, mostly for experimenting with web development and JS frameworks.</p>
     <p>Scripts will be written in TypeScript, primarily using Vue as a framework. Markup will be done in HTML (as is standard), and stylesheets will be handled by CSS.</p>
     <br><hr><br>
     <h2 id="current-folders" class="green h1">Current Folders</h2>
@@ -17,8 +17,6 @@
       <li><p><strong>/src/views/</strong> - Contains the about and home pages.</p>
       </li>
     </ul>
-    </li>
-    <li><p><strong>/.vscode/</strong> - Contains VS Code extension JSON.</p>
     </li>
     <li><p><strong>/public/</strong> - Contains favicon and other public assets.</p>
     </li>

@@ -4,11 +4,12 @@
 
 <template>
   <header class="wrapper header">
-    <h1 class="title">UPTU'S TUTORIAL SITE</h1>
+    <img class="logo header" src="./assets/banner.webp" alt="Logo"/>
     <div class="wrapper">
       <hr />
       <nav>
         <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/scripts">Scripts</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
       <hr />
