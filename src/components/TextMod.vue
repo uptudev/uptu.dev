@@ -2,7 +2,7 @@
 
   import { ref } from 'vue';
 
-  const textf = ref('Your text here.');
+  const textf = ref('');
   const stxt = ref('');
 
   function rev() {
@@ -120,9 +120,9 @@
 </script>
 
 <template>
-  <div class="main">
-    <h1 class="h1 green">Text Modification</h1>
-    <input class="input" v-model="textf">
+  <div class="main cell">
+    <h1 class="h1 light">Text Modification</h1>
+    <input class="input" v-model="textf" placeholder="Your text here.">
     <br>
     <button class="button" @click="rev()">Reverse</button>
     <button class="button" @click="cap()">All-Caps</button>
@@ -138,70 +138,5 @@
 </template> 
 
 <style>
-  .button {
-    background-color: var(--color-border);
-    transition: 100ms;
-    border: none;
-    border-bottom: 3px double var(--color-heading);
-    color: var(--color-text);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: normal;
-    width: 98px;
-    height: 40px;
-    border-radius: 8px;
-    margin-right: 0.5%;
-    margin-bottom: 0.5%;
-  }
-
-  .button:hover {
-    background-color:var(--color-border-hover);
-    font-weight: bold;
-    transition: 300ms;
-    border-radius: 4px;
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-
-  .buttonlong {
-    background-color: var(--color-border);
-    transition: 100ms;
-    border: none;
-    border-bottom: 3px double var(--color-heading);
-    color: var(--color-text);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: normal;
-    width: 149.5px;
-    height: 40px;
-    border-radius: 8px;
-    margin-right: 0.5%;
-    margin-bottom: 0.5%;
-  }
-
-  .buttonlong:hover {
-    background-color:var(--color-border-hover);
-    font-weight: bold;
-    transition: 300ms;
-    border-radius: 4px;
-  }
-
-  .input {
-    width: 303px;
-    font-size: 16px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: var(--color-background-soft);
-    color: var(--color-text);
-  }
-
-  .input:hover {
-    background-color: var(--color-background-mute);
-  }
+  
 </style>

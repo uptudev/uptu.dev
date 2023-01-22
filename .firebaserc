@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "vuetut-7992c"
-  }
+    "default": "vuetut-7992c",
+    "staging": "vuetut-7992c"
+  },
+  "targets": {},
+  "etags": {}
 }
