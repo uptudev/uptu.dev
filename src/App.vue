@@ -72,16 +72,18 @@
 
   nav a {
     color:var(--color-text);
-    text-align:center;
+    text-align: center;
     text-decoration:none;
     display:inline-block;
     font-weight:700;
     padding:0 1rem;
     margin:.1%;
-    border-bottom:1px solid var(--color-border);
+    border-bottom:3px double var(--color-heading);
     transition:.1s;
-    height:20px;
-    width:100px
+    height:1.5rem;
+    width:100px;
+    line-height:1.5rem;
+
   }
 
   /* Hover styling for each navbar entry */
@@ -89,6 +91,7 @@
     color:var(--color-router-hover);
     text-align:center;
     background-color:var(--color-router-hover-bg);
+    border-bottom:3px double var(--color-router-active);
     transition:.3s;
     width:120px;
     margin:0

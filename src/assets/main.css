@@ -76,11 +76,14 @@
   border-radius: 8px;
  }
  .small {
-  font-size:small;
-  text-align:center
+  font-size:10pt;
+ }
+ .title {
+  font-size: 42pt;
  }
  .smaller {
-  font-size:smaller
+  font-size:8pt;
+  text-align: center;
  }
  .h1 {
   font-weight:700;
@@ -89,7 +92,7 @@
   text-align:center
  }
  .light {
-  font-weight:lighter
+  font-weight: lighter;
  }
  a,
  .green {
@@ -100,16 +103,30 @@
  .cell {
   display:block;
   padding:10px;
-  width:335px;
+  width: 335px;
   height:min-content;
   max-height:max-content;
   border:1px solid var(--color-text);
+  border-radius:16px;
+ }
+ .text {
+  text-indent:5%;
+  display:block;
+  padding:10px;
+  height:min-content;
+  max-height:max-content;
+  border:1px solid var(--color-text);
+  background-color: var(--color-background-soft);
   border-radius:16px
  }
+
+ ul{
+  text-indent: 0%;
+ }
+
  div {
   box-sizing:border-box;
   width:100%;
-  margin:5px;
   align-items:center
  }
  @media (hover: hover) {
@@ -121,6 +138,7 @@
    font-weight:700;
    transition:.3s;
    border-radius:4px;
+   border-bottom:3px double var(--color-router-active);
    -webkit-transform:scale(1.05);
    -ms-transform:scale(1.05);
    transform:scale(1.05)
@@ -130,6 +148,7 @@
    font-weight:700;
    transition:.3s;
    border-radius:4px;
+   border-bottom:3px double var(--color-router-active);
    -webkit-transform:scaleX(1.033333) scaleY(1.05);
    -ms-transform:scaleX(1.033333) scaleY(1.05);
    transform:scaleX(1.033333) scaleY(1.05)

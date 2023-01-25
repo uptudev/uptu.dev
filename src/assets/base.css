@@ -38,7 +38,7 @@
   --color-border-hover: var(--light-hover-bg);
   --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--rich-black);
-  --color-router-active: var(--vt-c-black-mute);
+  --color-router-active: var(--rich-black-mute);
   --color-router-active-bg: var(--light-active-bg);
   --color-router-hover: var(--vt-c-black-soft);
   --color-router-hover-bg: var(--light-hover-bg);
