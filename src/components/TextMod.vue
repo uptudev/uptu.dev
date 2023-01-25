@@ -122,7 +122,7 @@
 <template>
   <div class="main cell">
     <h1 class="h1 light">Text Modification</h1>
-    <input class="input" v-model="textf" placeholder="Your text here.">
+    <input class="input" v-model="textf" placeholder="Place your text here.">
     <br>
     <button class="button" @click="rev()">Reverse</button>
     <button class="button" @click="cap()">All-Caps</button>
