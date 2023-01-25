@@ -54,6 +54,7 @@
     transition-timing-function:ease-in-out
   }
 
+  /* Sets CSS styling for the router navbar */
   nav {
     grid-area:menu;
     width:100%;
@@ -63,6 +64,7 @@
     margin-bottom:1rem
   }
 
+  /* Styling for the active view's entry in the navbar. Highlights the text colour (not as much as the hovered entry) and background colour */
   nav a.router-link-exact-active {
     color:var(--color-router-active);
     background-color:var(--color-router-active-bg)
@@ -82,6 +84,7 @@
     width:100px
   }
 
+  /* Hover styling for each navbar entry */
   nav a:hover {
     color:var(--color-router-hover);
     text-align:center;
