@@ -6,6 +6,7 @@
     <br><hr><br>
     <h2 id="current-components" class="h1">Current Components</h2>
     <p class="small"><em>(All can be found in /src/components/)</em></p>
+    <br>
     <ul>
       <li><p><strong>TextMod.vue</strong> - Runs basic string manipulation scripts.</p>
       </li>
