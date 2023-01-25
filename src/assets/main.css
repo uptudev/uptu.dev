@@ -3,13 +3,21 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-
+  grid-template-rows: 15% 80% 5%;
   font-weight: normal;
+  display: grid;
+    grid-template-areas:
+      'header header header'
+      'left main right'
+      'bottom bottom bottom';
 }
 
 .header {
   grid-column: 1 / span 3;
+  font-variant: small-caps;
+  font-size: larger;
+
+  align-items: center;
 }
 
 .main {
@@ -27,6 +35,51 @@
 .bottom {
   grid-area: 3 / 1 / 3 / 3;
 }
+.button {
+  background-color: var(--color-border);
+  transition: 100ms;
+  border: none;
+  border-bottom: 3px double var(--color-heading);
+  color: var(--color-text);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  width: 98px;
+  height: 40px;
+  border-radius: 8px;
+  margin: 3px;
+}
+
+.buttonlong {
+  background-color: var(--color-border);
+  transition: 100ms;
+  border: none;
+  border-bottom: 3px double var(--color-heading);
+  color: var(--color-text);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  width: 149.5px;
+  height: 40px;
+  border-radius: 8px;
+  margin:3px;
+}
+
+.input {
+  width: 304px;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 3px;
+  box-sizing: border-box;
+  background-color: var(--color-background-soft);
+  color: var(--color-text);
+  transition:100ms;
+  transition-timing-function: ease-in-out;
+}
 
 .small {
   font-size: small;
@@ -40,38 +93,91 @@
   font-weight: bold;
   font-variant: small-caps;
   place-items: center;
+  text-align:center;
+}
+
+.light {
+  font-weight: lighter;
 }
 
 a,
 .green {
   text-decoration: none;
-  font-weight: lighter;
-  color: rgb(0, 161, 189);
+  color: var(--color-heading);
   transition: 0.4s;
+}
+
+.cell {
+  display: block;
+  padding: 10px;
+  width: 335px;
+  height:min-content;
+  max-height:max-content;
+}
+
+div {
+  box-sizing: border-box;
+  width: 100%;
+  margin:5px;
+  align-items: center;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(189, 100%, 37%, 0.2);
+    background-color: transparent;
   }
+
+  .button:hover {
+    background-color:var(--color-border-hover);
+    font-weight: bold;
+    transition: 300ms;
+    border-radius: 4px;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .buttonlong:hover {
+    background-color:var(--color-border-hover);
+    font-weight: bold;
+    transition: 300ms;
+    border-radius: 4px;
+    -webkit-transform:scaleX(1.033333) scaleY(1.05);
+    -ms-transform:scaleX(1.033333) scaleY(1.05);
+    transform: scaleX(1.033333) scaleY(1.05);
+  }
+
+  .input:hover {
+    background-color: var(--color-background-mute);
+    transition:200ms;
+    transition-timing-function: ease-in-out;
+  }
+
+.buttonlong:hover {
+  background-color:var(--color-border-hover);
+  font-weight: bold;
+  transition: 300ms;
+  border-radius: 4px;
+}
 }
 
 @media (min-width: 1024px) {
-  body {
-    place-items: center;
-  }
 
   #app {
+    max-width: 1280px;
+    margin: 0 auto;
+    grid-template-rows: 15% 80% 5%;
+    font-weight: normal;
     display: grid;
     grid-template-areas:
       'header header header'
       'left main right'
       'bottom bottom bottom';
-    
-    grid-template-columns: 5% 90% 5%;
+  }
+}
+
+@media (min-height: 1080px) {
+  #app {
     grid-template-rows: 15% 80% 5%;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 2rem;
   }
 }

@@ -10,7 +10,7 @@
 
   --vt-c-indigo: #2c3e50;
 
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.24);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
   --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
   --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
@@ -33,7 +33,13 @@
   --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--vt-c-text-light-1);
 
+  --color-router-active: var(--vt-c-black-mute);
+  --color-router-active-bg: var(--vt-c-divider-light-2);
+  --color-router-hover: var(--vt-c-black-soft);
+  --color-router-hover-bg: var(--vt-c-divider-light-1);
+
   --section-gap: 160px;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,19 +53,22 @@
 
     --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
+
+    --color-router-active: var(--vt-c-white-mute);
+    --color-router-active-bg: var(--vt-c-divider-light-2);
+    --color-router-hover: var(--vt-c-white-soft);
+    --color-router-hover-bg: var(--vt-c-divider-light-1);
   }
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
+  margin: 0px;
   position: relative;
 }
 
 body {
-  min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
