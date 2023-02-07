@@ -4,7 +4,7 @@
 
 <template>
   <header class="wrapper header">
-    <picture>
+    <picture class="centre">
       <source
         srcset="./assets/banner-dark.webp"
         media="(prefers-color-scheme: dark)">
@@ -16,6 +16,7 @@
         <RouterLink to="/">HOME</RouterLink>
         <RouterLink to="/scripts">SCRIPTS</RouterLink>
         <RouterLink to="/about">ABOUT</RouterLink>
+        <RouterLink to="/test">SVG TEST</RouterLink>
       </nav>
       <hr class="hr" />
     </div>
@@ -44,6 +45,11 @@
     transition:.15s;
     transition-timing-function:ease-in-out;
     justify-content: center;
+  }
+
+  .centre {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   .logo:hover {
