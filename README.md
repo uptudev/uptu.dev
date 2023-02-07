@@ -35,3 +35,5 @@ Scripts will be written in TypeScript, primarily using Vue as a framework. Marku
 ## Current Components (found under <https://uptu.dev/scripts>)
 
 * **TextMod.vue** - Runs basic string manipulation scripts.
+
+* **MD2HTML.vue** - Bidirectional Markdown/HTML converter running off of https://github.com/showdownjs/showdown/.
