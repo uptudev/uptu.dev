@@ -8,7 +8,7 @@
       <source
         srcset="./assets/banner-dark.webp"
         media="(prefers-color-scheme: dark)">
-      <img class="logo header" src="./assets/banner.webp" alt="Logo"/>
+      <img class="logo" src="./assets/banner.webp" alt="Logo"/>
     </picture>
     <div class="wrapper navbar">
       <hr class="hr" />
@@ -17,6 +17,7 @@
         <RouterLink to="/scripts">SCRIPTS</RouterLink>
         <RouterLink to="/about">ABOUT</RouterLink>
         <RouterLink to="/test">SVG TEST</RouterLink>
+        <RouterLink to="/3d">3D TEST</RouterLink>
       </nav>
       <hr class="hr" />
     </div>

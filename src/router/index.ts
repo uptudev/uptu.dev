@@ -27,6 +27,11 @@ const router = createRouter({
       name: "test",
       component: () => import("../views/TestView.vue"),
     },
+    {
+      path: "/3d",
+      name: "3d",
+      component: () => import("../views/3DView.vue"),
+    },
   ],
 });
 
