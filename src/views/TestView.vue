@@ -145,6 +145,7 @@
     }
 
     .custom-shape-divider-top-1675809383 .shape-fill {
-        fill: #17181A;
+        transition:fill .5s;
+        fill: var(--color-background);
     }
 </style>
