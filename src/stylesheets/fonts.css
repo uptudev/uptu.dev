@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'DinaRemasterII';
+    src: url('../assets/fonts/DinaRemasterII.eot');
+    src: url('../assets/fonts/DinaRemasterII.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DinaRemasterII.ttf') format('truetype'),
+        url('../assets/fonts/DinaRemasterII.woff2') format('woff2'),
+        url('../assets/fonts/DinaRemasterII.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DinaRemasterII';
+    src: url('../assets/fonts/DinaRemasterII-Bold.eot');
+    src: url('../assets/fonts/DinaRemasterII-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DinaRemasterII-Bold.ttf') format('truetype'),
+        url('../assets/fonts/DinaRemasterII-Bold.woff2') format('woff2'),
+        url('../assets/fonts/DinaRemasterII-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

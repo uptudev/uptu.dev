@@ -1,0 +1,35 @@
+/* The Molokai color palette in all its glory */
+:root {
+  --dark-muted: #1b1d1e;
+  --dark: #272822;
+  --dark-accent: #3e3d32;
+  --light: #f8f8f2;
+  --primary-color: #f92672;
+  --secondary-color: #a6e22e;
+  --tertiary-color: #e6db74;
+  --quaternary-color: #66d9ef;
+  --quinary-color: #ae81ff;
+  --accent-color: #fd971f;
+  --highlight-color: #75715e;
+}
+
+$body-font:400 16pt 'Schibsted Grotesk', sans-serif;
+
+body {
+  margin: 0;
+  font: $body-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --logo: url("assets/banner-dark.webp") no-repeat;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --logo: url("assets/banner-light.webp") no-repeat;
+  }
+}
+
+code {
+  font-family: 'DinaRemasterII',
+    monospace;
+}
