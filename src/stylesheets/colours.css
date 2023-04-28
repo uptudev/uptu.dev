@@ -1,0 +1,30 @@
+/* The Molokai color palette in all its glory */
+:root {
+  --dark-muted: #1b1d1e;
+  --dark: #272822;
+  --dark-accent: #3e3d32;
+  --light: #f8f8f2;
+  --primary-color: #f92672;
+  --secondary-color: #a6e22e;
+  --tertiary-color: #e6db74;
+  --quaternary-color: #66d9ef;
+  --quinary-color: #ae81ff;
+  --accent-color: #fd971f;
+  --highlight-color: #ddddd0;
+
+  --background-color: var(--dark);
+  --background-color-accent: var(--dark-accent);
+  --color: var(--light);
+  --text-accent: var(--highlight-color);
+  --primary-accent: var(--primary-color);
+}
+@media (prefers-color-scheme: light) {
+  :root{
+    --background-color: var(--light);
+    --background-color-accent: var(--highlight-color);
+    --color: var(--dark);
+    --text-accent: var(--dark-accent);
+    --primary-accent: var(--quinary-color);
+  }
+}
+
