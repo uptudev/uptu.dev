@@ -2,13 +2,7 @@ import {ref, push, set} from 'firebase/database';
 import { useState, useEffect } from 'react';
 import {User} from 'firebase/auth';
 import { auth, db, sign_up, sign_in, sign_out } from "../firebase";
-
-// A blog post object
-interface Post {
-    title: string,
-    text: string,
-    dateTime: string,
-}
+import "../stylesheets/pages/admin.scss";
 
 // A function to serialize a blog post from fields into a JSON
 function pushBlogPostToFirebase(title: string, text: string): Promise<void> {
@@ -74,6 +68,7 @@ const Admin = (props: any) => {
                     setError(error.message);
                     console.log(error);
                 });
+            props.onLogin(email);
         }
     }
 
@@ -114,8 +109,9 @@ const Admin = (props: any) => {
         let area = document.getElementById("markdown") as HTMLInputElement;
         let title = input.value;
         let text = area.value;
-
         pushBlogPostToFirebase(title, text).then(() => {console.log('New blog post added from admin console.')});
+        input.value = "";
+        area.value = "";
     }
 
     function handleClear(event: { preventDefault: () => void; }) {
@@ -131,10 +127,9 @@ const Admin = (props: any) => {
         cyrb53(user.email) === "1083941953284809"
     )  {
         return(<div id="login">
-            <h1>Admin Powers Activated</h1>
-            <p>Welcome, uptu.</p>
-            <div id="blog">
-                <h1>New Post</h1>
+            <p className="box">Welcome, uptu.</p>
+            <div id="blog"  className="login">
+                <h2>New Post</h2>
                 <form>
                     <label className="blog-label" htmlFor="email">Title:</label><br />
                     <input className="blog-input-title" type="text" id="blogtitle" name="blogtitle" /><br />
@@ -145,19 +140,18 @@ const Admin = (props: any) => {
                         <button className="login-button" type="submit" onClick={handleClear}>Clear</button>
                     </div>
                 </form>
-                <h1>Blog Articles</h1>
             </div>
-            <button className="login" onClick={handleSignOut}>Sign out</button>
+            <button className="login-button" onClick={handleSignOut}>Sign out</button>
         </div>);
     } else if (user) {
         return(<div id="login">
-            <h1>Oops, you aren't an admin!</h1>
-            <p>This incident will be reported and logged.</p>
+            <h2>Oops, you aren't an admin!</h2>
+            <p className="box">This incident will be reported and logged.</p>
             <button onClick={handleSignOut}>Sign out</button>
         </div>);
     } else {
         return(<div id = "login">
-            <h1>Log In</h1>
+            <h2>Log In</h2>
             <form>
                 <label className="login_title" htmlFor="email">Email:</label><br />
                 <input className="login" type="text" id="email" name="email" /><br />

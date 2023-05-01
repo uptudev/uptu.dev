@@ -40,3 +40,4 @@ coverage
 # Remove production and npm code from github [will be built and deployed manually anyways].
 /dist/
 /node_modules/
+/build/
