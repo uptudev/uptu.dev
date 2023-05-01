@@ -1,0 +1,193 @@
+@import url("../libs/fonts.scss");
+
+$body-font: 400 12pt 'DinaRemasterII', monospace;
+$button-font: 400 24pt 'm3x6', monospace;
+$code-font: 400 12pt 'DinaRemasterII', monospace;
+$title-font: 500 48pt 'm5x7', monospace;
+
+// Used to escape indentation on an element
+.single_line {
+  text-indent: 0 !important;
+}
+
+// Creates a bordered box around a div or p element.
+.box {
+  width: 90vw;
+  border: 1px solid var(--primary-accent);
+  background-color: var(--background-color);
+  border-radius: 5px;
+  padding: 10px 12px;
+  margin: 10px auto 15px;
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.box p {
+  width: 95%;
+}
+
+body {
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+  margin: 0;
+  font: $body-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  width: 95vw;
+  margin: 1vh auto 1vh;
+  font: $body-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: justify;
+  text-indent: 2em;
+  text-rendering: optimizeSpeed;
+}
+
+p a {
+  font: $body-font !important;
+  font-weight: bold !important;
+  text-decoration: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: var(--primary-accent);
+}
+
+p a:hover {
+  text-decoration: underline 1px var(--color);
+  color: var(--color);
+}
+
+a {
+  font: $button-font;
+  z-index: 1;
+  text-align: center;
+  color: var(--color);
+  padding: 4px 8px 4px;
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+  margin: 4px auto 4px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--text-accent) !important;
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+}
+
+a:focus {
+  color: var(--background-color) !important;
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+}
+
+h1 {
+  text-shadow: 0 1px 0 var(--primary-accent), 0 2px 0 var(--primary-accent), 0 3px 0 var(--primary-accent), 1.5px 3px 1px rgba(0, 0, 0, 0.25);
+  text-indent: 0 !important;
+  line-height: 0.5 !important;
+  font: $title-font;
+  font-size: clamp(1rem, 4rem, 10vw);
+  text-decoration: underline 1px;
+  text-decoration-color: var(--primary-accent);
+  background-color: var(--background-color-accent);
+  padding: 2vh 0 3vh;
+  margin: 0 auto 0;
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+}
+
+h2 {
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+  text-indent: 0 !important;
+  font: $title-font;
+  font-size: clamp(1rem, 3rem, 10vw);
+  text-decoration: underline 3px var(--primary-accent);
+  text-decoration-color: var(--primary-accent);
+  padding: 0 15px 1vh;
+  margin-bottom: 1vh !important;
+  margin-top: 1vh;
+  text-align: left;
+}
+
+h3 {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  text-indent: 1rem;
+  font: $title-font;
+  font-size: clamp(1rem, 2rem, 10vw);
+  text-decoration: 2px underline var(--primary-accent);
+  padding: 1vh 0 1vh;
+  margin: 0 auto 0;
+  text-align: left;
+  line-height: 0.75;
+}
+
+h4 {
+  text-indent: 2rem;
+  font: $body-font;
+  font-size: 1rem;
+  text-decoration: 1px underline var(--primary-accent);
+  padding: 1vh 0 1vh;
+  margin-bottom: 1vh !important;
+  margin-top: 1vh;
+  text-align: left;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+pre {
+  justify-content: center;
+  text-indent: 0 !important;
+  text-align: left;
+  border: 3px double var(--primary-accent);
+  border-radius: 5px;
+  width: 75vw;
+  background-color: var(--background-color-muted);
+  font: $code-font;
+  padding: 4px 6px;
+  margin: 30px auto 15px;
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+pre code {
+  font: $code-font;
+  padding: 0 !important;
+  line-height: 1.75 !important;
+  text-indent: 0 !important;
+  border: none !important;
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+}
+
+p code {
+  text-align: left;
+  border: 3px double var(--primary-accent);
+  border-radius: 5px;
+  margin: 1vh auto 1vh;
+  width: 95vw;
+  background-color: var(--background-color-muted);
+  font: $code-font;
+  padding: 4px 6px;
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: var(--primary-accent);
+  font: $body-font;
+  text-align: center;
+}
+
+hr {
+  color: var(--primary-accent);
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+ul li {
+  display: flex;
+  text-decoration: none;
+  text-indent: 1em;
+  padding: 0.5rem 1rem;
+}

@@ -1,0 +1,34 @@
+.App-logo {
+  transform-origin: 50% 39%;
+  height: 25vmin;
+  pointer-events: none;
+  background: var(--logo);
+  transition: 0.5s cubic-bezier(.07,.95,0,1);
+  background-size: 25vmin;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.25));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 8s ease-in-out;
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
