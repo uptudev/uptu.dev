@@ -1,9 +1,15 @@
+@import "../libs/colours.css";
+
 .song-list-header {
     width: 85vw !important;
 }
 
 .song-list-content {
     padding: 10px 20px 10px !important;
+}
+
+.link-underline {
+    text-decoration: 1px solid var(--primary-accent);
 }
 
 .music-title {
