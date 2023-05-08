@@ -4,12 +4,13 @@ import { getAuth, UserCredential } from "firebase/auth";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC0k19XghJYR5gkyjQLJzcSE2TBtd8Twac",
-    authDomain: "uptu-50412.firebaseapp.com",
-    projectId: "uptu-50412",
-    storageBucket: "uptu-50412.appspot.com",
-    messagingSenderId: "770635266402",
-    appId: "1:770635266402:web:984d8ae2451d97fa74943b"
+    apiKey: "AIzaSyBpJSHLszGkpFHNvSCQ-1l7L8az09wNkc0",
+    authDomain: "vuetut-7992c.firebaseapp.com",
+    projectId: "vuetut-7992c",
+    storageBucket: "vuetut-7992c.appspot.com",
+    messagingSenderId: "1084894783495",
+    appId: "1:1084894783495:web:e00a702f6da2cbbf01a2a2" 
+    measurementId: "G-PYNKKC834H"
 };
 
 const app = initializeApp(firebaseConfig);

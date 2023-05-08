@@ -9,9 +9,9 @@ export const Header = (props: any) => {
         setKey(key => key + 1);
     }, [props.text]);
     return(
-        <div id="header">
+        <div id="header hdiv">
             <HeaderStart />
-                <h1 className="header">
+                <h1 className="header hh1">
                     <CharacterSpans key={key} input={props.text} />
                 </h1>
             <HeaderEnd />

@@ -7,6 +7,7 @@ import
     Admin from "./pages/Admin";
 import Home from "./pages/Home";
 import Music from "./pages/Music";
+import Photos from "./pages/Photos";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
@@ -46,6 +47,12 @@ export default function App() {
                         <>
                             <Header text="Music"/>
                             <Music/>
+                        </>
+                    }/>
+                    <Route path="photos" element={
+                        <>
+                            <Header text="Photos"/>
+                            <Photos/>
                         </>
                     }/>
                     <Route path="games" element={
