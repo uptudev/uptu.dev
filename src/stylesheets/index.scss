@@ -1,0 +1,100 @@
+@import url("libs/colours.css");
+@import url("base/text.scss");
+@import url("base/header.scss");
+@import url("base/navbar.scss");
+@import url("base/logo.scss");
+
+:root {
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+.App {
+  text-align: center;
+  transition: 0.5s cubic-bezier(.07,.95,0,1);
+}
+
+body {
+  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+  --logo: url("../assets/banner-dark.svg") no-repeat;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    transition: 0.5s cubic-bezier(.07, .95, 0, 1);
+    --logo: url("../assets/banner-light.svg") no-repeat;
+  }
+}
+
+.image {
+    width: 100%;
+}
+
+ul {
+  margin: auto;
+  padding: 0 !important;
+}
+
+.app_link:hover {
+  background-color: var(--background-color) !important;
+}
+
+.button {
+  transition: .1s;
+  border: 1px solid var(--primary-accent);
+  border-bottom: 2px double var(--primary-accent);
+  background-color: var(--primary-accent);
+  color: var(--color-text);
+  text-align: center;
+  text-decoration: none;
+  font-size: 24pt;
+  font-weight: 400;
+  padding-bottom: 5px;
+  width: clamp(50px, 5vw, 10vw);
+  border-radius: 24px;
+  margin: 3px
+}
+
+.button:hover {
+  background-color: var(--background-color-accent) !important;
+}
+
+.buttonlong {
+  background-color: var(--color-border);
+  transition: .1s;
+  border: none;
+  border-bottom: 3px double var(--color-heading);
+  color: var(--color-text);
+  text-align: center;
+  text-decoration: none;
+  font-size: 24pt;
+  font-weight: 400;
+  width: 149.5px;
+  height: 40px;
+  border-radius: 8px;
+  margin: 3px
+}
+
+.footer {
+  color: var(--color);
+  top: 0;
+  animation: foot-bounce 0.25s ease-out infinite alternate;
+  -webkit-animation: foot-bounce 0.25s ease-out infinite alternate;
+  text-shadow: 0 0px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes foot-bounce {
+  100% {
+    top: -5px;
+    text-shadow: 1px 1px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* ANIMATION */
+@-webkit-keyframes foot-bounce {
+  100% {
+    top: -5px;
+    text-shadow: 1px 1px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
+  }
+}

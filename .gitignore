@@ -7,12 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+
+public
 node_modules
 .DS_Store
 dist
 dist-ssr
 coverage
 *.local
+*.ttf
+*.eot
+*.woff
+*.woff2
 
 /cypress/videos/
 /cypress/screenshots/
@@ -34,3 +40,4 @@ coverage
 # Remove production and npm code from github [will be built and deployed manually anyways].
 /dist/
 /node_modules/
+/build/
