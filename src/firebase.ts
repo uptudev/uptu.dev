@@ -9,8 +9,8 @@ const firebaseConfig = {
     projectId: "vuetut-7992c",
     storageBucket: "vuetut-7992c.appspot.com",
     messagingSenderId: "1084894783495",
-    appId: "1:1084894783495:web:e00a702f6da2cbbf01a2a2" 
-    measurementId: "G-PYNKKC834H"
+    appId: "1:1084894783495:web:e00a702f6da2cbbf01a2a2", 
+    measurementId: "G-PYNKKC834H",
 };
 
 const app = initializeApp(firebaseConfig);
