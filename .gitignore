@@ -15,10 +15,6 @@ dist
 dist-ssr
 coverage
 *.local
-*.ttf
-*.eot
-*.woff
-*.woff2
 
 /cypress/videos/
 /cypress/screenshots/
