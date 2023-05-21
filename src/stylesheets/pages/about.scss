@@ -20,9 +20,9 @@ $title-font: 500 48pt 'm5x7', monospace;
   width: clamp(360px, 25vw, 720px) !important;
   margin: 10px 15px;
   padding: 0 !important;
-  background-color: var(--background-color) !important;
+  background-color: var(--background-color-accent) !important;
   border-bottom: 1px solid var(--primary-accent);
-  border-radius: 5px;
+  border-radius: 16px;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.35) !important;
 }
 

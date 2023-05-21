@@ -146,7 +146,7 @@ pre {
   background-color: var(--background-color-muted);
   font: $code-font;
   padding: 4px 6px;
-  margin: 30px auto 15px;
+  margin: 15px auto 15px;
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
@@ -162,13 +162,13 @@ pre code {
 
 p code {
   text-align: left;
-  border: 3px double var(--primary-accent);
+  border: 1px solid var(--primary-accent);
   border-radius: 5px;
   margin: 1vh auto 1vh;
   width: 95vw;
   background-color: var(--background-color-muted);
   font: $code-font;
-  padding: 4px 6px;
+  padding: 2px 4px;
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
   box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
