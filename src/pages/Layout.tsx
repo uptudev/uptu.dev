@@ -37,17 +37,20 @@ const Layout = () => {
             <nav>
                 <ul>
                     <li className="button">
-                        <Link to="/games">Games</Link>
+                        <Link to="/games">GAMES</Link>
                     </li>
                     <li className="button">
                         <Link to="/av">A/V</Link>
                     </li>
                     <li className="button">
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/blog">BLOG</Link>
                     </li>
                 </ul>
             </nav>
             <Outlet/>
+            <div className="footer">
+                © uptu 2023
+            </div>
         </div>
     )
 };

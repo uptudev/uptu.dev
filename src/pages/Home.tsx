@@ -4,7 +4,6 @@ import "../stylesheets/pages/about.scss"
 const Home = () => {
     return (
         <>
-            <hr className="hr"/>
             <h2 id="helloworld" className="title">Hi! My name is <span className="about-span">u</span>
                 <span className="about-span">p</span>
                 <span className="about-span">t</span>
@@ -12,9 +11,7 @@ const Home = () => {
                 .</h2>
             <p className="smaller title-break">(not really but I'm not telling you it because you shouldn't use your real name
                 online)</p>
-            <hr className="hr"/>
             <div>
-                <div className="box">
                     <p>
                         I'm a passionate developer with over a decade of coding experience as a hobbyist. I have primarily worked with OOP languages such as Java and C# in the past, but have recently forayed into web development, where I have taken to it quickly, thanks to my prior experience tinkering with web dev as a teen.
 
@@ -26,7 +23,6 @@ My language of choice is now Rust, which I have been using for the last few mont
                         While I tend to produce music in the <em>Drum n' Bass</em> and <em>Jungle</em> genres, I have made projects for pretty much any genre under the sun. I enjoy listening to different genres depending on my mood, typically Jazz, Drum n' Bass, Metal, or Rap, although I also have playlists for Blues/Bluegrass/Folk, Ambient, and other genres I like; they're for more niche moods.
                     </p>
 
-                </div>
                 <div className="box">
                     <h3>Languages I Know</h3>
                     <p className="smaller sideline">(All experience listed is amateur; I haven't had the pleasure of
@@ -39,6 +35,9 @@ My language of choice is now Rust, which I have been using for the last few mont
                                 <p className="single_line lang_body">
                                 My first programming language learned. Little
                                 uptu thought that Java was going to overtake C/C++ because of that sweet sweet JVM.
+                                <br />
+                                <br />
+                                I originally learned Java to make mods for a little-known indie game named Minecraft, which I was a fan of from around beta 1.7.3.
                                 </p>
                             </div>
                         </li>
@@ -61,24 +60,13 @@ My language of choice is now Rust, which I have been using for the last few mont
                             <div>
                                 <p className="single_line lang_header"><strong>HTML/CSS/JS</strong> - <em>~5 years;</em></p>
                                 
-                                <ul className="lang_body">
-                                    <li className="smallist"><p className="single_line">
-                                        I learned bits and pieces of HTML around 15 years ago, with markup
-                                        languages being rather simple to learn.
-                                    </p></li>
-                                    <li className="smallist"><p className="single_line">
-                                        I learned CSS primarily to modify a
-                                        stylesheet on a subreddit I moderated, which I was migrating to use Naut with
-                                        some tweaks.
-                                    </p>
-                                    </li>
-                                    <li className="smallist"><p className="single_line">
+                                <p className="lang_body">                                        I learned CSS primarily to modify a
+                                        stylesheet on a subreddit I moderated, which I was migrating to use Naut with some tweaks. 
+                                        <br />
                                         I have less experience with JavaScript, although I have been
                                         actively learning TypeScript recently to code this website, primarily
                                         using React as a framework.
-                                    </p>
-                                    </li>
-                                </ul>
+                                </p>
                             </div>
                         </li>
                         <br/>
@@ -137,7 +125,8 @@ My language of choice is now Rust, which I have been using for the last few mont
                                 was a trial-by-fire where I was too busy trying to figure out Noita's
                                 poorly-documented mod API to actually note anything about it otherwise.
                                 Unfortunately the aforementioned API issues left a bad taste in my
-                                mouth, and I haven't touched Lua since (beyond NeoVim configuration).
+                                mouth, and I've avoided doing much more modding in Noita than a small 
+                                mod that spawns some perks.
                                 </p>
                             </div>
                         </li>
@@ -157,7 +146,6 @@ My language of choice is now Rust, which I have been using for the last few mont
                         </li>
                     </ul>
                 </div>
-                <div className="box">
                     <h3>About this website</h3>
                     <p>
                         I recently decided to make a portfolio website to showcase my web dev skills (and host WASM
@@ -172,9 +160,18 @@ My language of choice is now Rust, which I have been using for the last few mont
                         React's interoperability with TypeScript via .tsx files allows for Rust-esque static typing,
                         which makes
                         my functions feel more like Rust than vanilla ECMAScript.
+                        <br />
+                        <br />
+                        The stack for the website is as follows:
+                        <div className="box">
+                            <ul>
+                                <li className="techstack">React (with TypeScript)</li>
+                                <li className="techstack">SASS</li>
+                                <li className="techstack">Firebase Realtime Database</li>
+                            </ul>
+                        </div>
                     </p>
                 </div>
-                <div className="box">
                     <h3>Contact Me</h3>
                     <p id="email" className="single_line contact">
                         <strong>
@@ -192,8 +189,6 @@ My language of choice is now Rust, which I have been using for the last few mont
                         uptudev
                     </a>
                     </p>
-                </div>
-            </div>
         </>
     );
 };

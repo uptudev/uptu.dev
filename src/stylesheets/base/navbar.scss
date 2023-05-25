@@ -36,8 +36,8 @@ nav a {
   text-decoration: none;
   width: clamp(50px, 5vw, 10vw);
   transition: 0.1s cubic-bezier(.07, .95, 0, 1);
-  margin: 4px 0 4px !important;
-  padding: 4px 0 4px !important;
+  margin: auto !important; 
+  padding: 4px;
 }
 
 nav a:hover {

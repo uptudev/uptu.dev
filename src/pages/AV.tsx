@@ -3,9 +3,8 @@ import "../stylesheets/pages/music.scss"
 const AV = () => {
     return(
         <>
-            <hr className="hr"/>
-            <h2 className="music-title">My Music</h2>
-            <hr className="hr"/>
+            <div className="box">
+            <h2>My Music</h2>
             <ul className="p language-grid">
                 <li className="biglist song-list-header">
                     <p className="single_line song-list-content">
@@ -29,9 +28,9 @@ const AV = () => {
                     </p>
                 </li>
             </ul>
-            <hr className="hr"/>
-            <h2 className="music-title">My Photos</h2>
-            <hr className="hr"/>
+            </div>
+            <div className="box">
+            <h2>My Photos</h2>
             <ul className="p language-grid">
                 <li className="biglist song-list-header">
                     <p className="single_line song-list-content">
@@ -56,6 +55,7 @@ const AV = () => {
                     </p>
                 </li>
             </ul>
+            </div>
         </>
     );
 }

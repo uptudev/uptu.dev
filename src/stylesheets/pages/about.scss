@@ -5,6 +5,19 @@ $button-font: 400 24pt 'm3x6', monospace;
 $code-font: 400 12pt 'DinaRemasterII', monospace;
 $title-font: 500 48pt 'm5x7', monospace;
 
+.techstack {
+    display: list-item !important;
+    list-style-type: square;
+    text-indent: -1em;
+    line-height: 1em;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.techstack::marker {
+    color: var(--primary-accent);
+}
+
 .contact {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -17,8 +30,8 @@ $title-font: 500 48pt 'm5x7', monospace;
 }
 
 .biglist {
-  width: clamp(360px, 25vw, 720px) !important;
-  margin: 10px 15px;
+  width: clamp(240px, 20vw, 720px) !important;
+  margin: 10px auto;
   padding: 0 !important;
   background-color: var(--background-color-accent) !important;
   border-bottom: 1px solid var(--primary-accent);
@@ -34,12 +47,13 @@ $title-font: 500 48pt 'm5x7', monospace;
 }
 
 .lang_header {
-  width: calc(clamp(360px, 25vw, 720px) - 20px) !important;
-  border-radius: 5px;
+  width: calc(clamp(240px, 20vw, 720px) - 20px) !important;
+  border-radius: 16px;
+  border-top: 1px solid var(--background-color-accent);
   border-bottom: 1px solid var(--primary-accent);
   margin: 0;
   padding: 10px;
-  background-color: var(--background-color-accent);
+  background-color: var(--background-color);
 }
 
 .lang_body {
@@ -56,9 +70,9 @@ $title-font: 500 48pt 'm5x7', monospace;
 .smaller {
   line-height: 1;
   padding-top: 0 !important;
-  margin: 0 auto 0;
+  margin: 0 auto;
   text-indent: 0;
-  text-align: center;
+  text-align: left;
   font: $button-font;
   font-size: 16px !important;
 }
@@ -76,9 +90,10 @@ $title-font: 500 48pt 'm5x7', monospace;
   font-size: 64px;
   line-height: 1;
   padding: 10px 0 0 !important;
-  margin-bottom: 0 !important;
   text-indent: 0;
-  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  text-align: left;
   text-shadow:
           0 1px 0 var(--primary-accent),
           0 2px 0 var(--primary-accent),

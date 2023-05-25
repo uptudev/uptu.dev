@@ -56,10 +56,10 @@ const Blog = () => {
                             <div key={post.id ?? Math.random()} className="box blog-post">
                                 <div className="blog-post-header">
                                     <h2>{post.title}</h2>
-                                    <hr/>
                                 </div>
-                                <Markdown>{post.text as string}</Markdown>
-                                <hr/>
+                                <div className="blog-contents">
+                                 <Markdown>{post.text as string}</Markdown>
+                                </div>
                                 <p className="timestamp">{formatDate(post.dateTime as string)}</p>
                             </div>
                             <br/>

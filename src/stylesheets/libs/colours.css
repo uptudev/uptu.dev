@@ -28,9 +28,9 @@
 }
 @media (prefers-color-scheme: light) {
   :root{
-    --background-color-muted: #fff;
+    --background-color-muted: var(--highlight-color);
     --background-color: var(--light);
-    --background-color-accent: var(--highlight-color);
+    --background-color-accent: #fff;
     --color: var(--dark);
     --text-accent: var(--dark-accent);
     --primary-accent: var(--quinary-color);
