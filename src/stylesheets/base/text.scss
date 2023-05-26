@@ -12,7 +12,7 @@ $title-font: 900 48px'Noto Sans', sans-serif;
 
 // Creates a bordered box around a div or p element.
 .box {
-  width: 90vw;
+  width: 90%;
   background-color: var(--background-color);
   border-top: 1px solid var(--background-color-accent);
   border-bottom: 1px solid var(--primary-accent);

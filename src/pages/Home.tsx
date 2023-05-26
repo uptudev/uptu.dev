@@ -9,9 +9,8 @@ const Home = () => {
                 <span className="about-span">t</span>
                 <span className="about-span">u</span>
                 .</h2>
-            <p className="smaller title-break">(not really but I'm not telling you it because you shouldn't use your real name
-                online)</p>
             <div>
+                <div className="box">
                     <p>
                         I'm a passionate developer with over a decade of coding experience as a hobbyist. I have primarily worked with OOP languages such as Java and C# in the past, but have recently forayed into web development, where I have taken to it quickly, thanks to my prior experience tinkering with web dev as a teen.
 
@@ -22,13 +21,13 @@ My language of choice is now Rust, which I have been using for the last few mont
                         I started playing guitar at <strong className="strong-accent">6</strong>, bass at somewhere around <strong className="strong-accent">10</strong> years old, and keyboards/synthesis at around <strong className="strong-accent">12</strong> years old.
                         While I tend to produce music in the <em>Drum n' Bass</em> and <em>Jungle</em> genres, I have made projects for pretty much any genre under the sun. I enjoy listening to different genres depending on my mood, typically Jazz, Drum n' Bass, Metal, or Rap, although I also have playlists for Blues/Bluegrass/Folk, Ambient, and other genres I like; they're for more niche moods.
                     </p>
-
+                </div>
                 <div className="box">
                     <h3>Languages I Know</h3>
                     <p className="smaller sideline">(All experience listed is amateur; I haven't had the pleasure of
                         working as a dev yet.)</p>
                     <ul className="p language-grid">
-                        <li className="biglist">
+                        <li className="biglist lang-list">
                             <div>
                                 <p className="single_line lang_header"><strong>Java</strong> - <em>10 years;</em></p>
                                 
@@ -42,7 +41,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                             </div>
                         </li>
                         <br/>
-                        <li className="biglist">
+                        <li className="biglist lang-list">
                             <div>
                                 <p className="single_line lang_header"><strong>Rust</strong> - <em>Learning;</em></p>
                                 
@@ -56,7 +55,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                             </div>
                         </li>
                         <br/>
-                        <li className="biglist">
+                        <li className="biglist lang-list">
                             <div>
                                 <p className="single_line lang_header"><strong>HTML/CSS/JS</strong> - <em>~5 years;</em></p>
                                 
@@ -70,7 +69,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                             </div>
                         </li>
                         <br/>
-                        <li className="biglist">
+                        <li className="biglist lang-list">
                             <div>
                                 <p className="single_line lang_header"><strong>C#</strong> - <em>~5 years;</em></p>
                                 
@@ -86,7 +85,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                             </div>
                         </li>
                         <br/>
-                        <li className="biglist">
+                        <li className="biglist lang-list">
                             <div>
                                 <p className="single_line lang_header"><strong>Python</strong> - <em>~5 years;</em></p>
                                 
@@ -100,7 +99,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                             </div>
                         </li>
                         <br/>
-                        <li className="biglist">
+                        <li className="biglist lang-list">
                             <div>
                                 <p className="single_line lang_header"><strong>Bash</strong> - <em>~5 years;</em></p>
                                 
@@ -114,7 +113,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                             </div>
                         </li>
                         <br/>
-                        <li className="biglist">
+                        <li className="biglist lang-list">
                             <div>
                                 <p className="single_line lang_header"><strong>Lua</strong> - <em>~1 month;</em></p>
                                 
@@ -131,7 +130,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                             </div>
                         </li>
                         <br/>
-                        <li className="biglist">
+                        <li className="biglist lang-list">
                             <div>
                                 <p className="single_line lang_header"><strong>Go</strong> - <em>Looking Into;</em></p>
                                 
@@ -146,6 +145,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                         </li>
                     </ul>
                 </div>
+                <div className="box">
                     <h3>About this website</h3>
                     <p>
                         I recently decided to make a portfolio website to showcase my web dev skills (and host WASM
@@ -163,7 +163,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                         <br />
                         <br />
                         The stack for the website is as follows:
-                        <div className="box">
+                        <div className="box techstack-box">
                             <ul>
                                 <li className="techstack">React (with TypeScript)</li>
                                 <li className="techstack">SASS</li>
@@ -172,6 +172,8 @@ My language of choice is now Rust, which I have been using for the last few mont
                         </div>
                     </p>
                 </div>
+                </div>
+                <div className="box">
                     <h3>Contact Me</h3>
                     <p id="email" className="single_line contact">
                         <strong>
@@ -189,6 +191,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                         uptudev
                     </a>
                     </p>
+                </div>
         </>
     );
 };
