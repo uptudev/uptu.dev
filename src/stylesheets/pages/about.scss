@@ -5,6 +5,11 @@ $button-font: 400 24pt 'm3x6', monospace;
 $code-font: 400 12pt 'DinaRemasterII', monospace;
 $title-font: 500 48pt 'm5x7', monospace;
 
+.techstack-box {
+    background-color: var(--background-color-muted);
+    padding: 12px 24px;
+}
+
 .techstack {
     display: list-item !important;
     list-style-type: square;
@@ -30,10 +35,9 @@ $title-font: 500 48pt 'm5x7', monospace;
 }
 
 .biglist {
-  width: clamp(240px, 20vw, 720px) !important;
   margin: 10px auto;
   padding: 0 !important;
-  background-color: var(--background-color-accent) !important;
+  background-color: var(--background-color-muted) !important;
   border-bottom: 1px solid var(--primary-accent);
   border-radius: 16px;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.35) !important;
@@ -44,6 +48,10 @@ $title-font: 500 48pt 'm5x7', monospace;
   flex-wrap: wrap !important;
   flex-direction: row !important;
   justify-content: center;
+}
+
+.lang-list {
+  width: clamp(240px, 20vw, 720px) !important;
 }
 
 .lang_header {
@@ -78,7 +86,7 @@ $title-font: 500 48pt 'm5x7', monospace;
 }
 
 .sideline {
-  margin: 0 20px 5px !important;
+  margin: 0 auto 5px !important;
   text-align: justify !important;
   text-indent: -1em !important;
   text-decoration: 1px underline dotted var(--primary-accent-muted);
@@ -88,10 +96,10 @@ $title-font: 500 48pt 'm5x7', monospace;
 .title {
   text-decoration: none !important;
   font-size: 64px;
-  line-height: 1;
+  line-height: 1.5;
   padding: 10px 0 0 !important;
   text-indent: 0;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   text-align: left;
   text-shadow:
@@ -105,6 +113,7 @@ $title-font: 500 48pt 'm5x7', monospace;
   .title {
     font-size: 48px !important;
     padding: 0 !important;
+    width: 95%;
   }
 
   span {
