@@ -25,7 +25,6 @@ export default function App() {
                 <Route path="/" element={<Layout/>}>
                     <Route index element={
                         <>
-                            <Header text="About Me"/>
                             <Home/>
                         </>
                     }/>

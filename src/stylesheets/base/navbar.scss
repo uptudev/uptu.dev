@@ -9,7 +9,6 @@ nav ul {
 
 nav li {
   text-indent: 0 !important;
-  color: var(--color);
   justify-content: center;
   align-items: center;
   font-weight: 700;
@@ -23,7 +22,6 @@ nav li {
 }
 
 nav li:hover {
-  color: var(--primary-accent) !important;
   background-color: var(--background-color-accent);
   border-bottom: 2px solid var(--primary-accent);
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
@@ -41,7 +39,6 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--primary-accent) !important;
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
   width: clamp(100px, 10vw, 20vw) !important;
 }

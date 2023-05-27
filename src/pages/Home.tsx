@@ -43,7 +43,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                         <br/>
                         <li className="biglist lang-list">
                             <div>
-                                <p className="single_line lang_header"><strong>Rust</strong> - <em>Learning;</em></p>
+                                <p className="single_line lang_header"><strong>Rust</strong> - <em>6 months;</em></p>
                                 
                                 <p className="single_line lang_body">
                                 I'm currently using
@@ -132,14 +132,14 @@ My language of choice is now Rust, which I have been using for the last few mont
                         <br/>
                         <li className="biglist lang-list">
                             <div>
-                                <p className="single_line lang_header"><strong>Go</strong> - <em>Looking Into;</em></p>
+                                <p className="single_line lang_header"><strong>Zig</strong> - <em>Learning;</em></p>
                                 
                                 <p className="single_line lang_body">
-                                I originally wanted to
-                                learn C++ as my next language after learning TypeScript, however
-                                I've noticed Go getting some traction as of recent as a potential
-                                successor to C++, and may look to it as a possible replacement for
-                                most purposes.
+                                I originally wanted to learn C++ as my next language after learning
+                                TypeScript, however, Rust seems to pretty much be the successor to C++.
+                                As such, I looked into the spiritual successor to C, Zig. I am currently
+                                in the process of learning it, but given it works as a drop-in C compiler,
+                                it hasn't been a difficult process.
                                 </p>
                             </div>
                         </li>

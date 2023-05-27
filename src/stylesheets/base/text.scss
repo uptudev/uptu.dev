@@ -84,11 +84,6 @@ a:hover {
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
 }
 
-a:focus {
-  color: var(--background-color) !important;
-  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
-}
-
 h1 {
   text-shadow: 0 1px 0 var(--primary-accent), 0 2px 0 var(--primary-accent), 0 3px 0 var(--primary-accent), 1.5px 3px 1px rgba(0, 0, 0, 0.25);
   text-indent: 0 !important;

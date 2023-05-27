@@ -43,13 +43,13 @@ ul {
 
 .button {
   transition: .1s;
-  border: 1px solid var(--primary-accent);
-  border-bottom: 2px double var(--primary-accent);
-  background-color: var(--primary-accent);
+  border-top: 1px solid var(--background-color-accent);
+  border-bottom: 2px solid var(--primary-accent);
+  background-color: var(--background-color);
   color: var(--color-text);
   text-align: center;
   text-decoration: none;
-  font-size: 24pt;
+  font-size: 24pt !important;
   font-weight: 400;
   padding-bottom: 5px;
   width: clamp(50px, 5vw, 10vw);
@@ -58,7 +58,9 @@ ul {
 }
 
 .button:hover {
-  background-color: var(--background-color-accent) !important;
+  border: 1px solid var(--primary-accent);
+  border-bottom: 2px solid var(--primary-accent-muted);
+  background-color: var(--primary-accent) !important;
 }
 
 .buttonlong {
