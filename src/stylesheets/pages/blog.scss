@@ -34,6 +34,18 @@
     padding: 0 15px;
 }
 
+blockquote {
+  text-decoration-line: underline;
+  text-decoration-color: var(--primary-accent);
+  text-decoration-style: dotted;
+  color: var(--text-accent);
+  background-color: var(--background-color-accent);
+  margin: 0 4%;
+  text-align: justify;
+  border-radius: 3px;
+  padding: 5px;
+}
+
 .loading {
   animation: loading-spin 1s linear infinite;
   width: 50px;
