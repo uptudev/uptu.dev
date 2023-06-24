@@ -11,14 +11,13 @@ path {
 .header {
   position: relative;
   text-decoration: none;
-  font-size: 48px;
   display: inline-block;
   width: 100% !important;
-  background-color: var(--background-color-accent);
+  background-color: var(--background-color);
 }
 
 #header\ hdiv {
-  margin-bottom: calc(2.5vw + 2.5vh) !important;
+  margin-bottom: calc(3.0vw + 3.0vh) !important;
 }
 
 .hh1 {
@@ -55,7 +54,7 @@ path {
 }
 
 .svg_bg {
-  fill: var(--background-color);
+  fill: var(--background-color-muted);
   transition: 0.5s cubic-bezier(.07,.95,0,1);
 }
 
@@ -76,20 +75,19 @@ path {
 .outer_9 {
   -webkit-animation: bg-pan-right 9s ease-in-out infinite alternate-reverse both;
   animation: bg-pan-right 8.8s ease-in-out infinite alternate-reverse both;
-  fill: var(--background-color-accent);
+  fill: var(--background-color);
   transition: 0.5s cubic-bezier(.07,.95,0,1);
 }
 
 .outer_10 {
   -webkit-animation: bg-pan-right 10s ease-in-out infinite alternate-reverse both;
   animation: bg-pan-right 9.6s ease-in-out infinite alternate-reverse both;
-  fill: var(--background-color-accent);
+  fill: var(--background-color);
   transition: 0.5s cubic-bezier(.07,.95,0,1);
 }
 
 .head-span {
   position: relative;
-  font-size: 80px !important;
   top: 0;
   display: inline-block;
   animation: head-bounce 0.25s ease-out infinite alternate;
@@ -102,7 +100,7 @@ path {
   .head-span {
     animation: head-bounce 0.25s ease-out infinite alternate;
     -webkit-animation: head-bounce 0.25s ease-out infinite alternate;
-    font-size: 64px !important;
+    font-size: 36px !important;
   }
 }
 

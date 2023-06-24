@@ -5,6 +5,24 @@ $button-font: 400 24pt 'm3x6', monospace;
 $code-font: 400 12pt 'DinaRemasterII', monospace;
 $title-font: 500 48pt 'm5x7', monospace;
 
+.techstack-box {
+    background-color: var(--background-color-muted) !important;
+    padding: 12px 24px !important;
+}
+
+.techstack {
+    display: list-item !important;
+    list-style-type: square;
+    text-indent: -1em;
+    line-height: 1em;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.techstack::marker {
+    color: var(--primary-accent);
+}
+
 .contact {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -17,12 +35,11 @@ $title-font: 500 48pt 'm5x7', monospace;
 }
 
 .biglist {
-  width: clamp(360px, 25vw, 720px) !important;
-  margin: 10px 15px;
+  margin: 10px auto;
   padding: 0 !important;
-  background-color: var(--background-color) !important;
+  background-color: var(--background-color-muted) !important;
   border-bottom: 1px solid var(--primary-accent);
-  border-radius: 5px;
+  border-radius: 16px;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.35) !important;
 }
 
@@ -33,13 +50,18 @@ $title-font: 500 48pt 'm5x7', monospace;
   justify-content: center;
 }
 
+.lang-list {
+  width: clamp(240px, 20vw, 720px) !important;
+}
+
 .lang_header {
-  width: calc(clamp(360px, 25vw, 720px) - 20px) !important;
-  border-radius: 5px;
+  width: calc(clamp(240px, 20vw, 720px) - 20px) !important;
+  border-radius: 16px;
+  border-top: 1px solid var(--background-color-accent);
   border-bottom: 1px solid var(--primary-accent);
   margin: 0;
   padding: 10px;
-  background-color: var(--background-color-accent);
+  background-color: var(--background-color);
 }
 
 .lang_body {
@@ -56,15 +78,15 @@ $title-font: 500 48pt 'm5x7', monospace;
 .smaller {
   line-height: 1;
   padding-top: 0 !important;
-  margin: 0 auto 0;
+  margin: 0 auto;
   text-indent: 0;
-  text-align: center;
+  text-align: left;
   font: $button-font;
   font-size: 16px !important;
 }
 
 .sideline {
-  margin: 0 20px 5px !important;
+  margin: 0 auto 5px !important;
   text-align: justify !important;
   text-indent: -1em !important;
   text-decoration: 1px underline dotted var(--primary-accent-muted);
@@ -74,11 +96,12 @@ $title-font: 500 48pt 'm5x7', monospace;
 .title {
   text-decoration: none !important;
   font-size: 64px;
-  line-height: 1;
+  line-height: 1.5;
   padding: 10px 0 0 !important;
-  margin-bottom: 0 !important;
   text-indent: 0;
-  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
   text-shadow:
           0 1px 0 var(--primary-accent),
           0 2px 0 var(--primary-accent),
@@ -90,6 +113,7 @@ $title-font: 500 48pt 'm5x7', monospace;
   .title {
     font-size: 48px !important;
     padding: 0 !important;
+    width: 95%;
   }
 
   span {

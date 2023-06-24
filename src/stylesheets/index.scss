@@ -6,7 +6,7 @@
 
 :root {
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
-  background-color: var(--background-color);
+  background-color: var(--background-color-muted);
   color: var(--color);
 }
 
@@ -29,6 +29,7 @@ body {
 
 .image {
     width: 100%;
+    border-radius: 16px;
 }
 
 ul {
@@ -42,13 +43,13 @@ ul {
 
 .button {
   transition: .1s;
-  border: 1px solid var(--primary-accent);
-  border-bottom: 2px double var(--primary-accent);
-  background-color: var(--primary-accent);
+  border-top: 1px solid var(--background-color-accent);
+  border-bottom: 2px solid var(--primary-accent);
+  background-color: var(--background-color);
   color: var(--color-text);
   text-align: center;
   text-decoration: none;
-  font-size: 24pt;
+  font-size: 24pt !important;
   font-weight: 400;
   padding-bottom: 5px;
   width: clamp(50px, 5vw, 10vw);
@@ -57,7 +58,9 @@ ul {
 }
 
 .button:hover {
-  background-color: var(--background-color-accent) !important;
+  border: 1px solid var(--primary-accent);
+  border-bottom: 2px solid var(--primary-accent-muted);
+  background-color: var(--primary-accent) !important;
 }
 
 .buttonlong {
@@ -82,6 +85,7 @@ ul {
   animation: foot-bounce 0.25s ease-out infinite alternate;
   -webkit-animation: foot-bounce 0.25s ease-out infinite alternate;
   text-shadow: 0 0px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 12px;
 }
 
 @keyframes foot-bounce {

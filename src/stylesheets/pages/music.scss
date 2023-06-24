@@ -1,11 +1,13 @@
+@import "../libs/colours.css";
+
 .song-list-header {
-    width: 85vw !important;
+    width: clamp(360px, 28vw, 720px) !important;
 }
 
 .song-list-content {
     padding: 10px 20px 10px !important;
 }
 
-.music-title {
-    text-align: center;
+.link-underline {
+    text-decoration: 1px solid var(--primary-accent);
 }

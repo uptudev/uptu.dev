@@ -12,6 +12,8 @@ function capitalizeAfterSlash(str: string): string {
 function getTitle(pathname: string) : string {
     if (pathname === "/") {
         return ("uptu");
+    } else if (pathname ==="/av") {
+        return ("uptu | A/V")
     } else {
         return(`uptu | ${capitalizeAfterSlash(pathname)}`);
     }
@@ -35,23 +37,20 @@ const Layout = () => {
             <nav>
                 <ul>
                     <li className="button">
-                        <Link to="/about">About</Link>
+                        <Link to="/games">GAMES</Link>
                     </li>
                     <li className="button">
-                        <Link to="/music">Music</Link>
+                        <Link to="/av">A/V</Link>
                     </li>
                     <li className="button">
-                        <Link to="/games">Games</Link>
-                    </li>
-                    <li className="button">
-                        <Link to="/photos">Photos</Link>
-                    </li>
-                    <li className="button">
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/blog">BLOG</Link>
                     </li>
                 </ul>
             </nav>
             <Outlet/>
+            <div className="footer">
+                © uptu 2023
+            </div>
         </div>
     )
 };

@@ -6,10 +6,8 @@ import {Header} from "./components/Header";
 import
     Admin from "./pages/Admin";
 import Home from "./pages/Home";
-import Music from "./pages/Music";
-import Photos from "./pages/Photos";
+import AV from "./pages/AV";
 import Blog from "./pages/Blog";
-import About from "./pages/About";
 import NoPage from "./pages/NoPage";
 import './stylesheets/index.scss';
 import Games from "./pages/Games";
@@ -27,7 +25,6 @@ export default function App() {
                 <Route path="/" element={<Layout/>}>
                     <Route index element={
                         <>
-                            <Header text="Under Construction"/>
                             <Home/>
                         </>
                     }/>
@@ -37,22 +34,10 @@ export default function App() {
                             <Admin onLogin={handleSignIn}/>
                         </>
                     }/>
-                    <Route path="about" element={
+                    <Route path="av" element={
                         <>
-                            <Header text="About Me"/>
-                            <About/>
-                        </>
-                    }/>
-                    <Route path="music" element={
-                        <>
-                            <Header text="Music"/>
-                            <Music/>
-                        </>
-                    }/>
-                    <Route path="photos" element={
-                        <>
-                            <Header text="Photos"/>
-                            <Photos/>
+                            <Header text="Audio/Visual Media"/>
+                            <AV/>
                         </>
                     }/>
                     <Route path="games" element={
