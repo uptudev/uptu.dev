@@ -1,4 +1,5 @@
 @import url("libs/colours.css");
+@import url("base/background.scss");
 @import url("base/text.scss");
 @import url("base/header.scss");
 @import url("base/navbar.scss");
@@ -18,12 +19,16 @@
 body {
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
   --logo: url("../assets/banner-dark.svg") no-repeat;
+  --background-svg-bl: url("../assets/bg_image_dark_bl.svg") no-repeat;
+  --background-svg-tr: url("../assets/bg_image_dark_tr.svg") no-repeat;
 }
 
 @media (prefers-color-scheme: light) {
   body {
     transition: 0.5s cubic-bezier(.07, .95, 0, 1);
     --logo: url("../assets/banner-light.svg") no-repeat;
+    --background-svg-bl: url("../assets/bg_image_light_bl.svg") no-repeat;
+    --background-svg-tr: url("../assets/bg_image_light_tr.svg") no-repeat;
   }
 }
 

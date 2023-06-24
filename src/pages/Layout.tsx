@@ -1,5 +1,6 @@
 import {Outlet, Link, useLocation} from "react-router-dom";
 import logo from '../assets/banner.webp';
+import BackgroundVector from '../components/BackgroundVector';
 import React, {useEffect} from "react";
 
 function capitalizeAfterSlash(str: string): string {
@@ -28,6 +29,7 @@ const Layout = () => {
 
     return (
         <div className="App">
+            <BackgroundVector />
             <header className="logo-container">
                 <Link to="/">
                     <img src={logo} className="App-logo" alt="logo"/>
