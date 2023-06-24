@@ -158,6 +158,12 @@ pre code {
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
 }
 
+@media screen and (max-width: 775px) {
+    pre code {
+        font-size: 8px;
+    }
+}
+
 p code {
   text-align: left;
   border: 1px solid var(--primary-accent);
