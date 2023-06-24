@@ -1,41 +1,41 @@
 .svg-bl {
     transition: 0.5s cubic-bezier(0.07, 0.95, 0, 1);
     margin: 0 !important;
-    width: 100vmin;
-    height: 100vmin;
+    width: 95vmin;
+    height: 95vmin;
     z-index: -1;
     background: var(--background-svg-bl);
-    background-size: 100vmin;
+    background-size: 95vmin;
 }
 
 .svg-tr {
     transition: 0.5s cubic-bezier(0.07, 0.95, 0, 1);
     margin: 0 !important;
-    width: 100vmin;
-    height: 100vmin;
+    width: 95vmin;
+    height: 95vmin;
     z-index: -1;
     background: var(--background-svg-tr);
-    background-size: 100vmin;
+    background-size: 95vmin;
 } 
 
 .svg-container-bl {
-    width: 100vmin;
-    height: 100vmin;
+    width: 95vmin;
+    height: 95vmin;
     margin: 0 !important;
   position: fixed;
-  bottom: calc(100vmin - 8px);
+  bottom: 93vmin;
   left: 0;
   z-index: -10;
   transform: translate(0%, 100%);
 }
 
 .svg-container-tr {
-    width: 100vmin;
-    height: 100vmin;
+    width: 90vmin;
+    height: 90vmin;
     margin: 0 !important;
   position: fixed;
   top: 0;
-  right: 100vmin;
+  right: 95vmin;
   z-index: -10;
   transform: translate(100%, 0);
 }
