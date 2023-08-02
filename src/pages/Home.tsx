@@ -47,7 +47,7 @@ My language of choice is now Rust, which I have been using for the last few mont
                                 
                                 <p className="single_line lang_body">
                                 I'm currently using
-                                rust as my daily driver, as it provides some nifty low-level
+                                Rust as my daily driver, as it provides some nifty low-level
                                 support, and polling has shown that most programmers love Rust
                                 more than their own mothers. Currently, I'm developing games
                                 using the <a href="https://bevyengine.org/">Bevy</a> framework.
