@@ -1,5 +1,35 @@
 <script lang="ts">
-    import logo from '../assets/banner.webp';
+    import { onMount } from 'svelte';
+    import logo_dark from '../assets/banner-dark.svg';
+    import logo_light from '../assets/banner-light.svg';
+
+    // initialize the image to the current colour scheme
+    let imageSrc = getImage(true);
+
+    /*
+        This function returns the corresponding image by using a 
+        media query on the current `window`.
+    */
+    function getImage(isDarkMode: boolean) {
+        return isDarkMode ? logo_dark : logo_light;
+    }
+
+    /*
+        The update function for the `imageSrc` variable, which is called
+        via an event listener on the same aforementioned CSS query.
+    */
+    function updateImageSrc() {
+        const isDarkMode = window
+            .matchMedia('(prefers-color-scheme: dark)')
+            .matches;
+
+        imageSrc = getImage(isDarkMode);
+    }
+    onMount(() => {
+        window
+            .matchMedia('(prefers-color-scheme: dark)')
+            .addEventListener('change', updateImageSrc);
+    });
 </script>
 
 <style lang="scss">
@@ -11,13 +41,13 @@
 
 <header class="logo-container">
     <a href="/">
-        <img class="App-logo" src={logo} alt="logo" />
+        <img class="App-logo" src={imageSrc} alt="logo" />
     </a>
 </header>
 <nav>
     <ul>
         <li class="button">
-            <a href="/games">Games</a>
+            <a href="/games">GAMES</a>
         </li>
 
         <li class="button">
@@ -25,7 +55,7 @@
         </li>
 
         <li class="button">
-            <a href="/blog">Blog</a>
+            <a href="/blog">BLOG</a>
         </li>
 
 </nav>

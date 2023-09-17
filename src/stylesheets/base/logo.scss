@@ -1,17 +1,8 @@
-
-$logo: url("../assets/banner-dark.svg") no-repeat;
-
-@media (prefers-color-scheme: light) {
-    $logo: url("../assets/banner-light.svg") no-repeat;
-}
-
 .App-logo {
   transform-origin: 50% 39%;
   height: 25vmin;
   pointer-events: none;
-  background: $logo;
   transition: 0.5s cubic-bezier(.07,.95,0,1);
-  background-size: 25vmin;
   filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.25));
 }
 

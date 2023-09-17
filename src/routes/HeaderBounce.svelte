@@ -6,13 +6,18 @@
 
 <style lang="scss">
     .head-span {
-      position: relative;
-      top: 0;
-      display: inline-block;
-      animation: head-bounce 0.25s ease-out infinite alternate;
-      -webkit-animation: head-bounce 0.25s ease-out infinite alternate;
-      text-shadow: 0 1px 0 var(--primary-accent), 0 2px 0 transparent, 0 3px 0 transparent, 0 4px 0 transparent,
-      1.5px 3px 1px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 0;
+        display: inline-block;
+        text-shadow: 0 1px 0 var(--primary-accent), 0 2px 0 transparent, 0 3px 0 transparent, 0 4px 0 transparent,
+        1.5px 3px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .head-span {
+            animation: head-bounce 0.25s ease-out infinite alternate;
+            -webkit-animation: head-bounce 0.25s ease-out infinite alternate;
+        }
     }
 
     .nth-child1 {
