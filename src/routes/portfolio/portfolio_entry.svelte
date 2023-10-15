@@ -28,14 +28,15 @@
     @import url('../../stylesheets/pages/about.scss');
 </style>
 
-<li class='biglist app-list-header'>
-    <p class='single_line app-list-content'>
+<li class='biglist app-list'>
+    <p class='single_line app-list-header'>
         <strong>
             <a class='link-underline' href={parseHref()}>
                 {title}
             </a>    
             </strong>  
-            <br>
+    </p>
+    <p class='single_line app-list-body'>
         {text}
     </p>
 </li>

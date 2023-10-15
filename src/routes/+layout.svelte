@@ -88,14 +88,15 @@
         <li class="button">
             <a href="/blog">BLOG</a>
         </li>
-
 </nav>
 
 {#key $page.url}
-<div out:fade={{ delay: 0, duration: 5}} in:fade={{ delay: 150, duration: 300 }}>
+    <div out:fade={{ delay: 0, duration: 10}} in:fade={{ delay: 150, duration: 300 }}>
         <slot />
     </div>
-{/key}<!-- idk why this style tag isn't applied via text.scss but whatever -->
+{/key}
+
+<!-- idk why this style tag isn't applied via text.scss but whatever -->
 <div class='footer' style='font: 400 14px Noto Sans,sans-serif'>
     © uptu 2023
 </div>
