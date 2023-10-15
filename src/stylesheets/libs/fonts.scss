@@ -1,8 +1,7 @@
 
 @font-face {
     font-family: 'DinaRemasterII';
-    src: url('../assets/fonts/DinaRemasterII.eot');
-    src: url('../assets/fonts/DinaRemasterII.eot?#iefix') format('embedded-opentype'),
+    src: url('../assets/fonts/DinaRemasterII.eot'), url('../assets/fonts/DinaRemasterII.eot?#iefix') format('embedded-opentype'),
         url('../assets/fonts/DinaRemasterII.ttf') format('truetype'),
         url('../assets/fonts/DinaRemasterII.woff2') format('woff2'),
         url('../assets/fonts/DinaRemasterII.woff') format('woff');
@@ -13,8 +12,8 @@
 
 @font-face {
     font-family: 'DinaRemasterII';
-    src: url('../assets/fonts/DinaRemasterII-Bold.eot');
-    src: url('../assets/fonts/DinaRemasterII-Bold.eot?#iefix') format('embedded-opentype'),
+    src: url('../assets/fonts/DinaRemasterII-Bold.eot') format('embedded-opentype'),
+        url('../assets/fonts/DinaRemasterII-Bold.eot?#iefix') format('embedded-opentype'),
         url('../assets/fonts/DinaRemasterII-Bold.ttf') format('truetype'),
         url('../assets/fonts/DinaRemasterII-Bold.woff2') format('woff2'),
         url('../assets/fonts/DinaRemasterII-Bold.woff') format('woff');
@@ -25,8 +24,8 @@
 
 @font-face {
     font-family: 'm5x7';
-    src: url('../assets/fonts/m5x7.eot');
-    src: url('../assets/fonts/m5x7.eot?#iefix') format('embedded-opentype'),
+    src: url('../assets/fonts/m5x7.eot') format('embedded-opentype'),
+        url('../assets/fonts/m5x7.eot?#iefix') format('embedded-opentype'),
         url('../assets/fonts/m5x7.ttf') format('truetype'),
         url('../assets/fonts/m5x7.woff2') format('woff2'),
         url('../assets/fonts/m5x7.woff') format('woff');
@@ -37,8 +36,8 @@
 
 @font-face {
     font-family: 'm3x6';
-    src: url('../assets/fonts/m3x6.eot');
-    src: url('../assets/fonts/m3x6.eot?#iefix') format('embedded-opentype'),
+    src: url('../assets/fonts/m3x6.eot') format('embedded-opentype'),
+        url('../assets/fonts/m3x6.eot?#iefix') format('embedded-opentype'),
         url('../assets/fonts/m3x6.ttf') format('truetype'),
         url('../assets/fonts/m3x6.woff2') format('woff2'),
         url('../assets/fonts/m3x6.woff') format('woff');

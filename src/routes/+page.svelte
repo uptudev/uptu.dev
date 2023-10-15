@@ -125,14 +125,14 @@
 
         However, at the end of the day, React ended up being not as performant as I had hoped, as it does most of its rendering using CSR and not SSR. As such, I refactored the website into Svelte, and it seems to be much better now. The old build can be found <a href="/react">here</a>.
 
-        React's interoperability with TypeScript via .tsx files allows for Rust-esque static typing, which makes my functions feel more like Rust than vanilla ECMAScript.
+        Both Svelte and React's interoperability with TypeScript via .tsx files allows for Rust-esque static typing, which makes my functions feel more like Rust than vanilla ECMAScript.
         <br>
         <br>
         The stack for the website is as follows:
         <div class="box techstack-box">
             <ul>
                 <li class="techstack">
-                    React (with TypeScript)
+                    Svelte (with TypeScript)
                 </li>
                 <li class="techstack">
                     SASS

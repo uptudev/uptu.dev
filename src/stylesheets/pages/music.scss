@@ -11,3 +11,13 @@
 .link-underline {
     text-decoration: 1px solid var(--primary-accent);
 }
+
+.app-list-header {
+    width: clamp(240px, 17vw, 720px) !important;
+}
+
+.app-list-content {
+    padding: 10px 20px 10px !important;
+}
+
+
