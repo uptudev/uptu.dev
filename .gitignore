@@ -11,3 +11,4 @@ vite.config.ts.timestamp-*
 /src/assets
 /old_react
 .firebase/
+bun.lockb
