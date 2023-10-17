@@ -31,14 +31,16 @@ nav li:hover {
 
 nav a {
   text-align: center;
+  text-indent: 0;
   text-decoration: none;
-  width: clamp(50px, 5vw, 10vw);
   transition: 0.1s cubic-bezier(.07, .95, 0, 1);
   margin: auto !important; 
-  padding: 4px;
+  padding: auto;
+  width: min-content;
 }
 
 nav a:hover {
   transition: 0.5s cubic-bezier(.07, .95, 0, 1);
-  width: clamp(100px, 10vw, 20vw) !important;
+  color: var(--background-color) !important;
+  width: 100%;
 }

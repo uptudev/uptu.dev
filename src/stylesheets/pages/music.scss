@@ -11,3 +11,25 @@
 .link-underline {
     text-decoration: 1px solid var(--primary-accent);
 }
+
+.app-list {
+  width: clamp(240px, 18vw, 720px) !important;
+  flex-direction: column !important;
+}
+
+.app-list-header {
+  width: clamp(240px, 17vw, 720px) !important;
+  border-radius: 16px;
+  border-top: 1px solid var(--background-color-accent);
+  border-bottom: 1px solid var(--primary-accent);
+  margin: 0;
+  padding: 10px;
+  background-color: var(--background-color);
+}
+
+.app-list-body {
+  padding: 10px !important;
+  margin: 1vh auto 1vh !important;
+}
+
+

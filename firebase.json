@@ -16,4 +16,10 @@
       }
     ]
   }
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/app.html"
+    }
+  ]
 }

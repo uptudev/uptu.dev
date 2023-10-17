@@ -56,10 +56,10 @@ ul {
   text-decoration: none;
   font-size: 24pt !important;
   font-weight: 400;
-  padding-bottom: 5px;
-  width: clamp(50px, 5vw, 10vw);
+  width: clamp(75px, 5vw, 125px);
   border-radius: 24px;
-  margin: 3px
+  margin: 3px;
+  text-indent: 0;
 }
 
 .button:hover {
@@ -78,7 +78,7 @@ ul {
   text-decoration: none;
   font-size: 24pt;
   font-weight: 400;
-  width: 149.5px;
+  width: 150px;
   height: 40px;
   border-radius: 8px;
   margin: 3px

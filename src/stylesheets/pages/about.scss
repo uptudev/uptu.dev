@@ -1,22 +1,24 @@
 @import url("../libs/fonts.scss");
 
-$body-font: 400 12pt 'DinaRemasterII', monospace;
+$body-font: 400 14px 'Noto Sans', sans-serif;
 $button-font: 400 24pt 'm3x6', monospace;
 $code-font: 400 12pt 'DinaRemasterII', monospace;
 $title-font: 500 48pt 'm5x7', monospace;
 
 .techstack-box {
     background-color: var(--background-color-muted) !important;
-    padding: 12px 24px !important;
+    padding: 6px !important;
 }
 
 .techstack {
     display: list-item !important;
+    font: $body-font;
     list-style-type: square;
     text-indent: -1em;
     line-height: 1em;
     width: 95%;
-    margin: 0 auto;
+    margin: 0 24px;
+    text-align: justify;
 }
 
 .techstack::marker {
@@ -114,6 +116,7 @@ $title-font: 500 48pt 'm5x7', monospace;
     font-size: 48px !important;
     padding: 0 !important;
     width: 95%;
+    text-decoration: none !important;
   }
 
   span {
