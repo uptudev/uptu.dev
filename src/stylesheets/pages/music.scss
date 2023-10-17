@@ -13,7 +13,6 @@
 }
 
 .app-list {
-  width: clamp(240px, 18vw, 720px) !important;
   flex-direction: column !important;
 }
 
@@ -30,6 +29,7 @@
 .app-list-body {
   padding: 10px !important;
   margin: 1vh auto 1vh !important;
+  width: clamp(240px, 17vw, 720px) !important;
 }
 
 

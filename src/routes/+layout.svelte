@@ -91,7 +91,7 @@
 </nav>
 
 {#key $page.url}
-    <div out:fade={{ delay: 0, duration: 10}} in:fade={{ delay: 150, duration: 300 }}>
+    <div out:fade={{ delay: 0, duration: 10}} in:fade={{ delay: 150, duration: 150 }}>
         <slot />
     </div>
 {/key}

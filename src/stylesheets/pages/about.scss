@@ -67,6 +67,7 @@ $title-font: 500 48pt 'm5x7', monospace;
 }
 
 .lang_body {
+  width: calc(clamp(240px, 20vw, 720px) - 20px) !important;
   padding: 10px !important;
   margin: 1vh auto 1vh !important;
 }
