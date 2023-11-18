@@ -9,6 +9,8 @@ lerna-debug.log*
 
 
 public
+/static/assets
+/.svelte-kit/
 node_modules
 .DS_Store
 dist
