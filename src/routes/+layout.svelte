@@ -9,7 +9,7 @@
     import bl_light from '../assets/bg_image_light_bl.svg';
     import tr_light from '../assets/bg_image_light_tr.svg';
     import skeleton_image from "../assets/bg.webp"; 
-
+    
     // initialize the logo image to the current colour scheme
     let logoImageSrc = getLogoImage(true);
     let bgBlSrc = getBlImage(true);
@@ -64,6 +64,9 @@
     }
 </style> 
 
+{#if !$page.url.pathname.startsWith('/portfolio/')}
+<div out:fade={{ delay: 0, duration: 15}} in:fade={{ delay: 50, duration: 150 }}>
+
 <div class="svg-container-bl">
     <img src={bgBlSrc} class="svg-bl" alt="" transition:fade={{delay: 0, duration: 300}}/>
 </div>
@@ -89,13 +92,17 @@
             <a href="/blog">BLOG</a>
         </li>
 </nav>
-
 {#key $page.url}
-    <div out:fade={{ delay: 0, duration: 10}} in:fade={{ delay: 150, duration: 150 }}>
+    <div out:fade={{ delay: 0, duration: 15}} in:fade={{ delay: 50, duration: 150 }}>
         <slot />
     </div>
-{/key}
-
+    {/key}
+    </div>
+{:else}
+    <div out:fade={{ delay: 0, duration: 15}} in:fade={{ delay: 15, duration: 150 }}>
+        <slot />
+    </div>
+{/if}
 <!-- idk why this style tag isn't applied via text.scss but whatever -->
 <div class='footer' style='font: 400 14px Noto Sans,sans-serif'>
     © uptu 2023

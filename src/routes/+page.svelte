@@ -67,7 +67,7 @@
                     <strong>C#</strong> - <em>~5 years;</em>
                 </p>
                 <p class="single_line lang_body">
-                    I wanted to try out Visual Studio (at the time I was unaware of the fledgling VS Code as an Eclipse user), and decided learning C# would be a good intro to the C family. I quickly learned that I had already learned C# well beforehand by learning Java, with C# being a more syntactically stripped-down version of the same general underlying concepts, feeling more like Java than C/C++. I have made a few Unity projects, and coding in it practically comes as a second nature coming from a Java background.
+                    I wanted to try out Visual Studio (at the time I was unaware of the fledgling VS Code as an Eclipse user), and decided learning C# would be a good intro to the C family. I quickly learned that I had already learned C# well beforehand by learning Java, with C# being a more syntactically concise language with similar syntax.
                 </p>
             </div>
         </li>
@@ -86,10 +86,10 @@
         <li class="biglist lang-list">
             <div>
                 <p class="single_line lang_header">
-                    <strong>Bash</strong> - <em>~5 years;</em>
+                    <strong>Bash/Zsh</strong> - <em>~5 years;</em>
                 </p>
                 <p class="single_line lang_body">
-                    Shell scripts can be immensely useful for automating many aspects of Linux development, and I personally have a deploy script ready to go on my desktop, along with many other small utility scripts. I am most familiar with the Debian family of distros and their commands.
+                    Shell scripts can be immensely useful for automating many aspects of Linux development, and I personally have a deploy script ready to go on my desktop, along with many other small utility scripts. Although I used Bash for a long time, I've since migrated all of my terminals to Zsh on my personal machines, as autocomplete does a lot of my everyday scripting for me.
                 </p>
             </div>
         </li>
@@ -100,7 +100,7 @@
                     <strong>Lua</strong> - <em>~1 month;</em>
                 </p>
                 <p class="single_line lang_body">
-                    I learned it on a weekend to make <a href="https://github.com/uptudev/hamisNice">a mod</a> for one of my favourite games, Noita. I can't even say I know the language, as it was a trial-by-fire where I was too busy trying to figure out Noita's poorly-documented mod API to actually note anything about it otherwise. Unfortunately the aforementioned API issues left a bad taste in my mouth, and I've avoided doing much more modding in Noita than a small mod that spawns some perks.
+                    I learned it on a weekend to make <a href="https://github.com/uptudev/hamisNice">a mod</a> for one of my favourite games, Noita. It was a trial-by-fire where I was too busy trying to figure out Noita's poorly-documented mod API to actually note anything the language. The aforementioned API issues left a bad taste in my mouth I've since overcome with learning NeoVim scripting.
                 </p>
             </div>
         </li>

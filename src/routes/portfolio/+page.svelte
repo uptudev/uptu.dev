@@ -29,7 +29,7 @@
     <h2>Miscellaneous</h2>
     <ul class='p language-grid'>
         <PortfolioEntry href='github:rosetta' title='Rosetta Stone' text =
-            'Dolor sit amet'
+            "This is a simple Fibonacci function written in every language I could get my hands on. It expands constantly, as I tend to learn new languages simply out of curiosity, and a simple recursive addition and print loop is a great demonstrator of a language's syntax."
         />
     </ul>
 </div>
