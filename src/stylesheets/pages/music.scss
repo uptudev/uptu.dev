@@ -1,36 +1,34 @@
-@import "../libs/colours.css";
+@import '../libs/colours.css';
 
 .song-list-header {
-    width: clamp(360px, 28vw, 720px) !important;
+	width: clamp(360px, 28vw, 720px) !important;
 }
 
 .song-list-content {
-    padding: 10px 20px 10px !important;
+	padding: 10px 20px 10px !important;
 }
 
 .link-underline {
-    text-decoration: 1px solid var(--primary-accent);
+	text-decoration: 1px solid var(--primary-accent);
 }
 
 .app-list {
-  flex-direction: column !important;
+	flex-direction: column !important;
 }
 
 .app-list-header {
-  width: clamp(240px, 17vw, 720px) !important;
-  border-radius: 16px;
-  border-top: 1px solid var(--background-color-accent);
-  border-bottom: 1px solid var(--primary-accent);
-  margin: 0;
-  padding: 10px;
-  background-color: var(--background-color);
+	width: clamp(240px, 17vw, 720px) !important;
+	border-radius: 16px;
+	border-top: 1px solid var(--background-color-accent);
+	border-bottom: 1px solid var(--primary-accent);
+	margin: 0;
+	padding: 10px;
+	background-color: var(--background-color);
 }
 
 .app-list-body {
-  padding: 10px !important;
-  margin: 1vh auto 1vh !important;
-  width: clamp(240px, 17vw, 720px) !important;
-  text-align: justify;
+	padding: 10px !important;
+	margin: 1vh auto 1vh !important;
+	width: clamp(240px, 17vw, 720px) !important;
+	text-align: justify;
 }
-
-

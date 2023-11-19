@@ -1,109 +1,109 @@
-@import url("libs/colours.css");
-@import url("base/background.scss");
-@import url("base/text.scss");
-@import url("base/header.scss");
-@import url("base/navbar.scss");
-@import url("base/logo.scss");
+@import url('libs/colours.css');
+@import url('base/background.scss');
+@import url('base/text.scss');
+@import url('base/header.scss');
+@import url('base/navbar.scss');
+@import url('base/logo.scss');
 
 :root {
-  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
-  background-color: var(--background-color-muted);
-  color: var(--color);
+	transition: 0.5s cubic-bezier(0.07, 0.95, 0, 1);
+	background-color: var(--background-color-muted);
+	color: var(--color);
 }
 
 .App {
-  text-align: center;
-  transition: 0.5s cubic-bezier(.07,.95,0,1);
+	text-align: center;
+	transition: 0.5s cubic-bezier(0.07, 0.95, 0, 1);
 }
 
 body {
-  transition: 0.5s cubic-bezier(.07, .95, 0, 1);
-  --logo: url("../assets/banner-dark.svg") no-repeat;
-  --background-svg-bl: url("../assets/bg_image_dark_bl.svg") no-repeat;
-  --background-svg-tr: url("../assets/bg_image_dark_tr.svg") no-repeat;
+	transition: 0.5s cubic-bezier(0.07, 0.95, 0, 1);
+	--logo: url('../assets/banner-dark.svg') no-repeat;
+	--background-svg-bl: url('../assets/bg_image_dark_bl.svg') no-repeat;
+	--background-svg-tr: url('../assets/bg_image_dark_tr.svg') no-repeat;
 }
 
 @media (prefers-color-scheme: light) {
-  body {
-    transition: 0.5s cubic-bezier(.07, .95, 0, 1);
-    --logo: url("../assets/banner-light.svg") no-repeat;
-    --background-svg-bl: url("../assets/bg_image_light_bl.svg") no-repeat;
-    --background-svg-tr: url("../assets/bg_image_light_tr.svg") no-repeat;
-  }
+	body {
+		transition: 0.5s cubic-bezier(0.07, 0.95, 0, 1);
+		--logo: url('../assets/banner-light.svg') no-repeat;
+		--background-svg-bl: url('../assets/bg_image_light_bl.svg') no-repeat;
+		--background-svg-tr: url('../assets/bg_image_light_tr.svg') no-repeat;
+	}
 }
 
 .image {
-    width: 100%;
-    border-radius: 16px;
+	width: 100%;
+	border-radius: 16px;
 }
 
 ul {
-  margin: auto;
-  padding: 0 !important;
+	margin: auto;
+	padding: 0 !important;
 }
 
 .app_link:hover {
-  background-color: var(--background-color) !important;
+	background-color: var(--background-color) !important;
 }
 
 .button {
-  transition: .1s;
-  border-top: 1px solid var(--background-color-accent);
-  border-bottom: 2px solid var(--primary-accent);
-  background-color: var(--background-color);
-  color: var(--color-text);
-  text-align: center;
-  text-decoration: none;
-  font-size: 24pt !important;
-  font-weight: 400;
-  width: clamp(75px, 5vw, 125px);
-  border-radius: 24px;
-  margin: 3px;
-  text-indent: 0;
+	transition: 0.1s;
+	border-top: 1px solid var(--background-color-accent);
+	border-bottom: 2px solid var(--primary-accent);
+	background-color: var(--background-color);
+	color: var(--color-text);
+	text-align: center;
+	text-decoration: none;
+	font-size: 24pt !important;
+	font-weight: 400;
+	width: clamp(75px, 5vw, 125px);
+	border-radius: 24px;
+	margin: 3px;
+	text-indent: 0;
 }
 
 .button:hover {
-  border: 1px solid var(--primary-accent);
-  border-bottom: 2px solid var(--primary-accent-muted);
-  background-color: var(--primary-accent) !important;
+	border: 1px solid var(--primary-accent);
+	border-bottom: 2px solid var(--primary-accent-muted);
+	background-color: var(--primary-accent) !important;
 }
 
 .buttonlong {
-  background-color: var(--color-border);
-  transition: .1s;
-  border: none;
-  border-bottom: 3px double var(--color-heading);
-  color: var(--color-text);
-  text-align: center;
-  text-decoration: none;
-  font-size: 24pt;
-  font-weight: 400;
-  width: 150px;
-  height: 40px;
-  border-radius: 8px;
-  margin: 3px
+	background-color: var(--color-border);
+	transition: 0.1s;
+	border: none;
+	border-bottom: 3px double var(--color-heading);
+	color: var(--color-text);
+	text-align: center;
+	text-decoration: none;
+	font-size: 24pt;
+	font-weight: 400;
+	width: 150px;
+	height: 40px;
+	border-radius: 8px;
+	margin: 3px;
 }
 
 .footer {
-  color: var(--color);
-  top: 0;
-  animation: foot-bounce 0.25s ease-out infinite alternate;
-  -webkit-animation: foot-bounce 0.25s ease-out infinite alternate;
-  text-shadow: 0 0px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
-  margin-bottom: 12px;
+	color: var(--color);
+	top: 0;
+	animation: foot-bounce 0.25s ease-out infinite alternate;
+	-webkit-animation: foot-bounce 0.25s ease-out infinite alternate;
+	text-shadow: 0 0px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
+	margin-bottom: 12px;
 }
 
 @keyframes foot-bounce {
-  100% {
-    top: -5px;
-    text-shadow: 1px 1px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
-  }
+	100% {
+		top: -5px;
+		text-shadow: 1px 1px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
+	}
 }
 
 /* ANIMATION */
 @-webkit-keyframes foot-bounce {
-  100% {
-    top: -5px;
-    text-shadow: 1px 1px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
-  }
+	100% {
+		top: -5px;
+		text-shadow: 1px 1px 0 var(--primary-accent), 3px 3px 2px rgba(0, 0, 0, 0.25);
+	}
 }
