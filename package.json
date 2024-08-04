@@ -34,7 +34,7 @@
   },
   "type": "module",
   "dependencies": {
-    "firebase": "^10.5.0",
+    "firebase": "^10.12.5",
     "serve": "^14.2.3"
   }
 }

@@ -13,6 +13,7 @@
 	let logoImageSrc = getLogoImage(true);
 	let bgBlSrc = getBlImage(true);
 	let bgTrSrc = getTrImage(true);
+    let year = new Date().getFullYear();
 	updateImageSrc();
 
 	/*
@@ -86,8 +87,9 @@
 		<slot />
 	</div>
 {/if}
+
 <!-- idk why this style tag isn't applied via text.scss but whatever -->
-<div class="footer" style="font: 400 14px Noto Sans,sans-serif">© uptu 2023</div>
+<div class="footer" style="font: 400 14px Noto Sans,sans-serif">© uptu {year}</div>
 
 <style lang="scss">
 	@import url('../stylesheets/index.scss');
