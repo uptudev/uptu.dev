@@ -12,7 +12,7 @@
 .blog-post {
 	border: none !important;
 	box-shadow: 0 1px 0 var(--primary-accent), 0 4px 3px rgba(0, 0, 0, 0.35) !important;
-	padding: 0 0 1px !important;
+    margin: 10px auto 15px !important;
 }
 
 .blog-post-header {
@@ -20,6 +20,7 @@
 	border-bottom: 1px solid var(--primary-accent);
 	border-radius: 16px;
 	padding: 0 12px;
+    background-color: var(--background-color-accent);
 }
 
 .blog-post h2 {
