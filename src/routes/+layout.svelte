@@ -8,12 +8,12 @@
 	import tr_dark from '/static/assets/bg_image_dark_tr.svg';
 	import bl_light from '/static/assets/bg_image_light_bl.svg';
 	import tr_light from '/static/assets/bg_image_light_tr.svg';
-	import skeleton_image from '/static/assets/bg.webp';
 
 	// initialize the logo image to the current colour scheme
 	let logoImageSrc = getLogoImage(true);
 	let bgBlSrc = getBlImage(true);
 	let bgTrSrc = getTrImage(true);
+    let year = new Date().getFullYear();
 	updateImageSrc();
 
 	/*
@@ -87,8 +87,9 @@
 		<slot />
 	</div>
 {/if}
+
 <!-- idk why this style tag isn't applied via text.scss but whatever -->
-<div class="footer" style="font: 400 14px Noto Sans,sans-serif">© uptu 2023</div>
+<div class="footer" style="font: 400 14px Noto Sans,sans-serif">© uptu {year}</div>
 
 <style lang="scss">
 	@import url('../stylesheets/index.scss');
