@@ -53,7 +53,7 @@
 		<li class="biglist lang-list">
 			<div>
 				<p class="single_line lang_header">
-					<strong>Rust</strong> - <em>6 months;</em>
+					<strong>Rust</strong> - <em>3 years;</em>
 				</p>
 				<p class="single_line lang_body">
 					I'm currently using Rust as my daily driver, as it provides some nifty low-level support,
@@ -66,7 +66,7 @@
 		<li class="biglist lang-list">
 			<div>
 				<p class="single_line lang_header">
-					<strong>HTML/CSS/JS</strong> - <em>~5 years;</em>
+					<strong>HTML/CSS/JS</strong> - <em>~6 years;</em>
 				</p>
 				<p class="lang_body">
 					I learned CSS primarily to modify a stylesheet on a subreddit I moderated, which I was
@@ -124,7 +124,7 @@
 		<li class="biglist lang-list">
 			<div>
 				<p class="single_line lang_header">
-					<strong>Lua</strong> - <em>~1 month;</em>
+					<strong>Lua</strong> - <em>~2 months;</em>
 				</p>
 				<p class="single_line lang_body">
 					I learned it on a weekend to make <a href="https://github.com/uptudev/hamisNice">a mod</a>
@@ -138,7 +138,7 @@
 		<li class="biglist lang-list">
 			<div>
 				<p class="single_line lang_header">
-					<strong>Zig</strong> - <em>Learning;</em>
+					<strong>Zig</strong> - <em>1 year;</em>
 				</p>
 				<p class="single_line lang_body">
 					I originally wanted to learn C++ as my next language after learning TypeScript, however,
