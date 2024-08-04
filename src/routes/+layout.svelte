@@ -8,7 +8,6 @@
 	import tr_dark from '/static/assets/bg_image_dark_tr.svg';
 	import bl_light from '/static/assets/bg_image_light_bl.svg';
 	import tr_light from '/static/assets/bg_image_light_tr.svg';
-	import skeleton_image from '/static/assets/bg.webp';
 
 	// initialize the logo image to the current colour scheme
 	let logoImageSrc = getLogoImage(true);
