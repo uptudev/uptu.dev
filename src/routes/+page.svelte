@@ -157,13 +157,15 @@
 		I recently decided to make a portfolio website to showcase my web dev skills (and host WASM
 		verisons of games I make), with the decision between using <a href="https://yew.rs/">Yew</a>,
 		<a href="https://vuejs.org/">Vue.js 3</a>, and <a href="https://react.dev/">React</a> being more
-		difficult than expected. At the end of the day, I ended up using React, with the prototype of my
+		difficult than expected. I ended up using React, with the prototype of my
 		website having been originally written in Vue.js (and thus requiring rewriting). However, at the
 		end of the day, React ended up being not as performant as I had hoped, as it does most of its
 		rendering using CSR and not SSR. As such, I refactored the website into Svelte, and it seems to
-		be much better now. The old build can be found <a href="/react">here</a>. Both Svelte and
-		React's interoperability with TypeScript via .tsx files allows for Rust-esque static typing,
-		which makes my functions feel more like Rust than vanilla ECMAScript.
+        be much better now. The old build can be found 
+        <a href="https://github.com/uptudev/uptu.dev/tree/react_legacy/">here</a>. 
+        Both Svelte and React's interoperability with TypeScript via .tsx files allows for static typing,
+		which I do prefer over JavaScript's dynamic typing. I also have a love for SASS, which I have 
+        used to style this website. 
 		<br />
 		<br />
 		The stack for the website is as follows:
