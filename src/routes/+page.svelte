@@ -80,14 +80,15 @@
 		<li class="biglist lang-list">
 			<div>
 				<p class="single_line lang_header">
-					<strong>C#</strong> - <em>~5 years;</em>
+					<strong>C</strong> - <em>~5 years;</em>
 				</p>
 				<p class="single_line lang_body">
-					I wanted to try out Visual Studio (at the time I was unaware of the fledgling VS Code as
-					an Eclipse user), and decided learning C# would be a good intro to the C family. I quickly
-					learned that I had already learned C# well beforehand by learning Java, with C# being a
-					more syntactically concise language with similar syntax.
-				</p>
+                    After learning a few languages, I decided to learn C to get a better understanding of how
+                    memory management works in programming languages. Due to my familiarity with other C-like
+                    languages, I found I had pretty much already learned the language by the time I started
+                    studying it, with the only new concepts being pointer arithmetic and memory management,
+                    specifically the best practices/patterns for deallocation/clean-up subroutines.
+                </p>
 			</div>
 		</li>
 		<br />
