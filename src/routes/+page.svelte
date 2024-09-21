@@ -10,14 +10,14 @@
 		primarily worked with OOP languages such as Java and C# in the past, but have recently forayed
 		into web development, where I have taken to it quickly, thanks to my prior experience tinkering
 		with web dev as a teen. My language of choice is now Rust, which I have been using for the last
-		few months. Rust provides me with low-level control, clang-like LLVM compiling, WASM support,
+		few years. Rust provides me with low-level control, clang-like LLVM compiling, WASM support,
 		and the immensely useful borrow checker, making it a powerful language. I'm currently using Rust
 		as my daily driver for developing games using the Bevy ECS framework, which provides me with
 		just enough abstraction over raw OpenGL and WebGPU commands while still delivering a
 		stripped-down, light and performant experience.
 	</p>
 	<p>
-		I am also a musician with <strong class="strong-accent">17</strong> years of experience playing
+		I am also a musician with <strong class="strong-accent">19</strong> years of experience playing
 		guitar, bass, and synths. I started playing guitar at <strong class="strong-accent">6</strong>,
 		bass at somewhere around <strong class="strong-accent">10</strong> years old, and
 		keyboards/synthesis at around <strong class="strong-accent">12</strong> years old. While I tend
