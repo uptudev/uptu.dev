@@ -25,7 +25,7 @@
 		/>
 		<PortfolioEntry
 			href="github:pi"
-			title="Pi"
+			title="pi"
 			text="This is a project initializer that I built to easily scaffold new projects. It's a simple CLI tool that allows for the creation of new projects with a single command, and is built in C as en exercise in memory management. Languages that I find myself using somewhat often are added as needed, and feature recommendations are always welcome."
 		/>
 		<PortfolioEntry
@@ -38,6 +38,11 @@
 			title="TikrTrakr"
 			text="This is a Binance CLI tracker, where a daemon is set up to track a certain symbol pair using the Binance API, and then a frontend binary is used to display the data in a simple, easy-to-read format. It was made for a friend of mine, and is a simple C project that I used to learn more about API interfacing and Linux daemon development."
 		/>
+        <PortfolioEntry
+            href="github:forestry"
+            title="forestry"
+            text="This is a simple logging library for Rust. It implements a Logger structure that can be used to log messages (optionally to file output), and is designed to be as simple as possible to use. I found myself creating a lot of very similar logging code in my Rust projects, so I decided to abstract it out into a public library for personal reuse, and made it easily installable via Cargo (Rust's default build tool)." 
+        />
 	</ul>
 </div>
 
