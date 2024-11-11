@@ -9,7 +9,7 @@
 	--secondary-color: #a6e22e;
 	--secondary-color-muted: #7da62c;
 	--tertiary-color: #e6db74;
-	--quaternary-color: #66d9ef;
+	--quaternary-color: #19dcfa;
 	--quaternary-color-muted: #5097a4;
 	--quinary-color: #ae81ff;
 	--quinary-color-muted: #8067b0;
@@ -22,8 +22,8 @@
 	--background-color-accent: var(--dark-accent);
 	--color: var(--light);
 	--text-accent: var(--highlight-color);
-	--primary-accent: var(--primary-color);
-	--primary-accent-muted: var(--primary-color-muted);
+	--primary-accent: var(--quaternary-color);
+	--primary-accent-muted: var(--quaternary-color-muted);
 	--noise-color: var(--dark-accent);
 }
 @media (prefers-color-scheme: light) {
